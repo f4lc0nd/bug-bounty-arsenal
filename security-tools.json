@@ -453,6 +453,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "description": "Incredibly fast crawler designed for OSINT.",
+      "category": "reconnaissance",
+      "command": "python photon.py -u \"http://example.com\"",
+      "url": "https://github.com/s0md3v/Photon",
+      "documentation": "https://github.com/s0md3v/Photon?tab=readme-ov-file#incredibly-fast-crawler-designed-for-osint",
+      "tags": [
+        "scanner",
+        "osint"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
