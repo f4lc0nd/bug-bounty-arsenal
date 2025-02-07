@@ -385,6 +385,32 @@
       "tags": ["windows", "samba", "enumeration"],
       "difficulty": "intermediate",
       "platform": ["linux"]
+    }
+  ],
+"categories": {
+    "reconnaissance": {
+      "description": "Tools for information gathering",
+      "icon": "search"
     },
-  ]
+    "vulnerability-scanning": {
+      "description": "Tools for finding security vulnerabilities",
+      "icon": "shield"
+    },
+    "content-discovery": {
+      "description": "Tools for finding hidden content",
+      "icon": "folder"
+    },
+    "exploitation": {
+      "description": "Tools for exploiting vulnerabilities",
+      "icon": "zap"
+    },
+    "post-exploitation": {
+      "description": "Tools for post-exploitation tasks",
+      "icon": "key"
+    },
+    "reporting": {
+      "description": "Tools for report generation",
+      "icon": "file-text"
+    }
+  }
 }
