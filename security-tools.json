@@ -337,6 +337,54 @@
         "mac",
         "windows"
       ]
-    }
+    },
+    {
+      "id": "masscan",
+      "name": "Masscan",
+      "description": "Mass IP port scanner, capable of scanning the entire internet in minutes",
+      "category": "network-scanning",
+      "command": "masscan -p1-65535 {target} --rate=10000",
+      "url": "https://github.com/robertdavidgraham/masscan",
+      "documentation": "https://github.com/robertdavidgraham/masscan/wiki",
+      "tags": ["network", "scanning", "ip"],
+      "difficulty": "intermediate",
+      "platform": ["linux", "mac", "windows"]
+    },
+    {
+      "id": "aquatone",
+      "name": "Aquatone",
+      "description": "Tool for visual inspection of websites across many hosts",
+      "category": "reconnaissance",
+      "command": "aquatone -scan -ports large -targets domains.txt",
+      "url": "https://github.com/michenriksen/aquatone",
+      "documentation": "https://github.com/michenriksen/aquatone/wiki",
+      "tags": ["web", "visualization", "recon"],
+      "difficulty": "intermediate",
+      "platform": ["linux", "mac", "windows"]
+    },
+    {
+      "id": "crackmapexec",
+      "name": "CrackMapExec",
+      "description": "Swiss army knife for pentesting networks",
+      "category": "network-exploitation",
+      "command": "crackmapexec smb {target} -u {user} -p {password}",
+      "url": "https://github.com/byt3bl33d3r/CrackMapExec",
+      "documentation": "https://github.com/byt3bl33d3r/CrackMapExec/wiki",
+      "tags": ["network", "exploitation", "pentesting"],
+      "difficulty": "advanced",
+      "platform": ["linux", "mac"]
+    },
+    {
+      "id": "enum4linux",
+      "name": "Enum4linux",
+      "description": "Tool for enumerating information from Windows and Samba systems",
+      "category": "enumeration",
+      "command": "enum4linux -a {target}",
+      "url": "https://github.com/portcullislabs/enum4linux",
+      "documentation": "https://labs.portcullis.co.uk/tools/enum4linux/",
+      "tags": ["windows", "samba", "enumeration"],
+      "difficulty": "intermediate",
+      "platform": ["linux"]
+    },
   ]
 }
