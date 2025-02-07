@@ -346,9 +346,17 @@
       "command": "masscan -p1-65535 {target} --rate=10000",
       "url": "https://github.com/robertdavidgraham/masscan",
       "documentation": "https://github.com/robertdavidgraham/masscan/wiki",
-      "tags": ["network", "scanning", "ip"],
+      "tags": [
+        "network",
+        "scanning",
+        "ip"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "aquatone",
@@ -358,9 +366,17 @@
       "command": "aquatone -scan -ports large -targets domains.txt",
       "url": "https://github.com/michenriksen/aquatone",
       "documentation": "https://github.com/michenriksen/aquatone/wiki",
-      "tags": ["web", "visualization", "recon"],
+      "tags": [
+        "web",
+        "visualization",
+        "recon"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "crackmapexec",
@@ -370,9 +386,16 @@
       "command": "crackmapexec smb {target} -u {user} -p {password}",
       "url": "https://github.com/byt3bl33d3r/CrackMapExec",
       "documentation": "https://github.com/byt3bl33d3r/CrackMapExec/wiki",
-      "tags": ["network", "exploitation", "pentesting"],
+      "tags": [
+        "network",
+        "exploitation",
+        "pentesting"
+      ],
       "difficulty": "advanced",
-      "platform": ["linux", "mac"]
+      "platform": [
+        "linux",
+        "mac"
+      ]
     },
     {
       "id": "enum4linux",
@@ -382,35 +405,35 @@
       "command": "enum4linux -a {target}",
       "url": "https://github.com/portcullislabs/enum4linux",
       "documentation": "https://labs.portcullis.co.uk/tools/enum4linux/",
-      "tags": ["windows", "samba", "enumeration"],
+      "tags": [
+        "windows",
+        "samba",
+        "enumeration"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux"]
+      "platform": [
+        "linux"
+      ]
+    },
+    {
+      "id": "arjun",
+      "name": "Arjun",
+      "description": "HTTP parameter discovery suite.",
+      "category": "content-discovery",
+      "command": "arjun -u https://api.example.com/endpoint",
+      "url": "https://github.com/s0md3v/Arjun",
+      "documentation": "https://github.com/s0md3v/Arjun#",
+      "tags": [
+        "http parametrs",
+        "scanner",
+        "reconnaissance"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
-  ],
-"categories": {
-    "reconnaissance": {
-      "description": "Tools for information gathering",
-      "icon": "search"
-    },
-    "vulnerability-scanning": {
-      "description": "Tools for finding security vulnerabilities",
-      "icon": "shield"
-    },
-    "content-discovery": {
-      "description": "Tools for finding hidden content",
-      "icon": "folder"
-    },
-    "exploitation": {
-      "description": "Tools for exploiting vulnerabilities",
-      "icon": "zap"
-    },
-    "post-exploitation": {
-      "description": "Tools for post-exploitation tasks",
-      "icon": "key"
-    },
-    "reporting": {
-      "description": "Tools for report generation",
-      "icon": "file-text"
-    }
-  }
+  ]
 }
