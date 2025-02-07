@@ -434,6 +434,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "xsstrike",
+      "name": "XSStrike",
+      "description": "Most advanced XSS scanner.",
+      "category": "vulnerability-scanning",
+      "command": "python xsstrike.py -u \"http://example.com/search.php?q=query\"",
+      "url": "https://github.com/s0md3v/XSStrike",
+      "documentation": "https://github.com/s0md3v/XSStrike#advanced-xss-detection-suite",
+      "tags": [
+        "xss",
+        "scanner"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
