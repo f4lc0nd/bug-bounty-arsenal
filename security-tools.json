@@ -472,6 +472,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "katana",
+      "name": "Katana",
+      "description": "A next-generation crawling and spidering framework.",
+      "category": "content-discovery",
+      "command": "katana -u https://tesla.com",
+      "url": "https://github.com/projectdiscovery/katan",
+      "documentation": "https://github.com/projectdiscovery/katana?tab=readme-ov-file#a-next-generation-crawling-and-spidering-framework",
+      "tags": [
+        "crawling",
+        "spidering"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
