@@ -511,6 +511,24 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "gowitness",
+      "name": "gowitness",
+      "description": "🔍 gowitness - a golang, web screenshot utility using Chrome Headless",
+      "category": "reporting",
+      "command": "gowitness scan single --url \"https://sensepost.com\" --write-db",
+      "url": "https://github.com/sensepost/gowitness",
+      "documentation": "https://github.com/sensepost/gowitness#a-golang-web-screenshot-utility-using-chrome-headless",
+      "tags": [
+        "screenshot"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
