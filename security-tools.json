@@ -529,6 +529,26 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "eyewitness",
+      "name": "EyeWitness",
+      "description": "EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.",
+      "category": "reporting",
+      "command": "EyeWitness -f urls.txt --web",
+      "url": "https://github.com/redsiege/EyeWitness",
+      "documentation": "https://github.com/redsiege/EyeWitness",
+      "tags": [
+        "scanner",
+        "osint",
+        "screenshots"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
