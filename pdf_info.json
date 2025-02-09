@@ -9,7 +9,7 @@
   },
   {
     "title": "Cyber security prcaticle training",
-    "url": "cyber security prcaticle training.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/cyber security prcaticle training.pdf",
     "category": "Cyber Security",
     "size": 1060026,
     "author": "1:M Cyber Security LLC",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Pen Testing Active Directory Environments",
-    "url": "Active Directory Penetration.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/Active Directory Penetration.pdf",
     "category": "Active Directory, Pentesting, PowerShell",
     "size": 3191125,
     "author": "VARONIS",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Artificial Intelligence and Cybersecurity",
-    "url": "AI in Cybersecurity.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/AI in Cybersecurity.pdf",
     "category": "AI, Cybersecurity",
     "size": 3118263,
     "author": "CEPS Task Force Report",
@@ -33,15 +33,15 @@
   },
   {
     "title": "AV/EDR Bypass Techniques for new Hackers",
-    "url": "AC DER BY PASS TECH.HACKERS.pdf",
-    "category": "AV, Bypass",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/AC DER BY PASS TECH.HACKERS.pdf",
+    "category": "AD Obfuscation",
     "size": 1148362,
     "author": "Joas Antonio (C0d3Cr4zy)",
     "description": "Endpoint detection and response technology is used to protect endpoints, which are computer hardware devices, from threat. Creators of the EDR technology based platforms deploy tools to gather data from endpoint devices, and then analyze the data to reveal potential cyber threats and issues. It is a protection against hacking attempts and theft of user data. The software is installed on the end-user device and it is continually monitored. The data is stored in a centralized database. In an incident when a threat is found, the end-user is immediately prompted with preventive list of actions;"
   },
   {
     "title": "Attacks on TCP",
-    "url": "Attacks on TCP.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/Attacks on TCP.pdf",
     "category": "Networking",
     "size": 1590033,
     "author": "Unknown",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Best Practices for MITRE ATT&CK® Mapping",
-    "url": "MITRE ATTACKS.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/MITRE ATTACKS.pdf",
     "category": "Phishing, Network",
     "size": 1597625,
     "author": "TLP:WHITE",
@@ -57,7 +57,7 @@
   },
   {
     "title": "How To Start Bug Bounty ?",
-    "url": "Big bounty.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/Big bounty.pdf",
     "category": "Bug Bounty, Cybersecurity",
     "size": 972045,
     "author": "#Digitokawn",
@@ -65,7 +65,7 @@
   },
   {
     "title": "Blue Team cheat Sheet",
-    "url": "Blue Team cheat Sheet.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/Blue Team cheat Sheet.pdf",
     "category": "Blue Team",
     "size": 14284168,
     "author": "Chris Davis",
@@ -73,7 +73,7 @@
   },
   {
     "title": "CHFIv9 STUDY GUIDE_NEW",
-    "url": "CHFIv9 STUDY GUIDE_NEW.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/CHFIv9 STUDY GUIDE_NEW.pdf",
     "category": "Computer Forensics, Investigations",
     "size": 1008310,
     "author": "Robert Weber",
@@ -81,7 +81,7 @@
   },
   {
     "title": "CISSP For Dummies, 4th Edition",
-    "url": "CISSP_For_Dummies-4E.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/CISSP_For_Dummies-4E.pdf",
     "category": "Security, Vulnerabilities",
     "size": 28411499,
     "author": "Lawrence Miller and Peter H. Gregory",
@@ -89,7 +89,7 @@
   },
   {
     "title": "Coding for Penetration Testers: Building Better Tools",
-    "url": "Coding_for_Penetration_Testers_Building_Better_Tools_Jason_Andress.pdf",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/Coding_for_Penetration_Testers_Building_Better_Tools_Jason_Andress.pdf",
     "category": "Coding, Pentesting, Tools",
     "size": 10357949,
     "author": "Jason Andress & Ryan Linn",
@@ -97,8 +97,8 @@
   },
   {
     "title": "Common Sense Guide to Mitigating Insider Threats, v7",
-    "url": "Common Sense Guide to Mitigating Insider Threats, v7.pdf",
-    "category": "Threats Mitigating",
+    "url": "https://github.com/f4lc0nd/cybooks/blob/main/Common Sense Guide to Mitigating Insider Threats, v7.pdf",
+    "category": "Security, Vulnerabilities",
     "size": 10579925,
     "author": "Carnegie Mellon University.",
     "description": "his guide serves as a resource for stakeholders building or maturing IRMPs. Decision makers across the organization benefit from reading it because insider threats are influenced by a combination of technical, behavioral, and organizational issues that must be addressed by policies, procedures, and technologies. An organization’s cross-departmental workforce members who are involved in Management, Human Resources, Legal Counsel, Physical Security, Information Technology, Information Security, Data Owners, and Software Engineers should appreciate the scope and complexity of insider risk management. This guide identifies the organization’s groups that have a role in implementing each practice so group members can quickly access relevant recommendations."
