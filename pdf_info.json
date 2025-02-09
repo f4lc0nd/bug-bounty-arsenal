@@ -1,7 +1,7 @@
 [
   {
     "title": "HACKING EXPOSED LINUX: LINUX SECURITY SECRETS & SOLUTIONS THIRD EDITION",
-    "url": "./../books/McGraw_Hill_Hacking_Exposed_Linux_3rd_Edition_Jul_2008_ISBN_0072262575.pdf",
+    "url": "https://www.mediafire.com/file/f2n152wqb8yhcj0/McGraw_Hill_Gray_Hat_Hacking_4th_Edition_Jan_2015_ISBN_0071832386.pdf/file",
     "category": "Linux, Security",
     "size": 10989983,
     "author": "The McGraw-Hill Companies",
@@ -9,7 +9,7 @@
   },
   {
     "title": "Cyber security prcaticle training",
-    "url": "./../books/cyber security prcaticle training.pdf",
+    "url": "cyber security prcaticle training.pdf",
     "category": "Cyber Security",
     "size": 1060026,
     "author": "1:M Cyber Security LLC",
@@ -17,7 +17,7 @@
   },
   {
     "title": "Pen Testing Active Directory Environments",
-    "url": "./../books/Active Directory Penetration.pdf",
+    "url": "Active Directory Penetration.pdf",
     "category": "Active Directory, Pentesting, PowerShell",
     "size": 3191125,
     "author": "VARONIS",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Artificial Intelligence and Cybersecurity",
-    "url": "./../books/AI in Cybersecurity.pdf",
+    "url": "AI in Cybersecurity.pdf",
     "category": "AI, Cybersecurity",
     "size": 3118263,
     "author": "CEPS Task Force Report",
@@ -33,15 +33,15 @@
   },
   {
     "title": "AV/EDR Bypass Techniques for new Hackers",
-    "url": "./../books/AC DER BY PASS TECH.HACKERS.pdf",
-    "category": "AV, Obfuscate",
+    "url": "AC DER BY PASS TECH.HACKERS.pdf",
+    "category": "AV, Bypass",
     "size": 1148362,
     "author": "Joas Antonio (C0d3Cr4zy)",
     "description": "Endpoint detection and response technology is used to protect endpoints, which are computer hardware devices, from threat. Creators of the EDR technology based platforms deploy tools to gather data from endpoint devices, and then analyze the data to reveal potential cyber threats and issues. It is a protection against hacking attempts and theft of user data. The software is installed on the end-user device and it is continually monitored. The data is stored in a centralized database. In an incident when a threat is found, the end-user is immediately prompted with preventive list of actions;"
   },
   {
     "title": "Attacks on TCP",
-    "url": "./../books/Attacks on TCP.pdf",
+    "url": "Attacks on TCP.pdf",
     "category": "Networking",
     "size": 1590033,
     "author": "Unknown",
@@ -49,7 +49,7 @@
   },
   {
     "title": "Best Practices for MITRE ATT&CK® Mapping",
-    "url": "./../books/MITRE ATTACKS.pdf",
+    "url": "MITRE ATTACKS.pdf",
     "category": "Phishing, Network",
     "size": 1597625,
     "author": "TLP:WHITE",
@@ -57,7 +57,7 @@
   },
   {
     "title": "How To Start Bug Bounty ?",
-    "url": "./../books/Big bounty.pdf",
+    "url": "Big bounty.pdf",
     "category": "Bug Bounty, Cybersecurity",
     "size": 972045,
     "author": "#Digitokawn",
@@ -65,7 +65,7 @@
   },
   {
     "title": "Blue Team cheat Sheet",
-    "url": "./../books/Blue Team cheat Sheet.pdf",
+    "url": "Blue Team cheat Sheet.pdf",
     "category": "Blue Team",
     "size": 14284168,
     "author": "Chris Davis",
@@ -73,7 +73,7 @@
   },
   {
     "title": "CHFIv9 STUDY GUIDE_NEW",
-    "url": "./../books/CHFIv9 STUDY GUIDE_NEW.pdf",
+    "url": "CHFIv9 STUDY GUIDE_NEW.pdf",
     "category": "Computer Forensics, Investigations",
     "size": 1008310,
     "author": "Robert Weber",
@@ -81,7 +81,7 @@
   },
   {
     "title": "CISSP For Dummies, 4th Edition",
-    "url": "./../books/CISSP_For_Dummies-4E.pdf",
+    "url": "CISSP_For_Dummies-4E.pdf",
     "category": "Security, Vulnerabilities",
     "size": 28411499,
     "author": "Lawrence Miller and Peter H. Gregory",
@@ -89,7 +89,7 @@
   },
   {
     "title": "Coding for Penetration Testers: Building Better Tools",
-    "url": "./../books/Coding_for_Penetration_Testers_Building_Better_Tools_Jason_Andress.pdf",
+    "url": "Coding_for_Penetration_Testers_Building_Better_Tools_Jason_Andress.pdf",
     "category": "Coding, Pentesting, Tools",
     "size": 10357949,
     "author": "Jason Andress & Ryan Linn",
@@ -97,8 +97,8 @@
   },
   {
     "title": "Common Sense Guide to Mitigating Insider Threats, v7",
-    "url": "./../books/Common Sense Guide to Mitigating Insider Threats, v7.pdf",
-    "category": "Threats Mitigating, OSINT",
+    "url": "Common Sense Guide to Mitigating Insider Threats, v7.pdf",
+    "category": "Threats Mitigating",
     "size": 10579925,
     "author": "Carnegie Mellon University.",
     "description": "his guide serves as a resource for stakeholders building or maturing IRMPs. Decision makers across the organization benefit from reading it because insider threats are influenced by a combination of technical, behavioral, and organizational issues that must be addressed by policies, procedures, and technologies. An organization’s cross-departmental workforce members who are involved in Management, Human Resources, Legal Counsel, Physical Security, Information Technology, Information Security, Data Owners, and Software Engineers should appreciate the scope and complexity of insider risk management. This guide identifies the organization’s groups that have a role in implementing each practice so group members can quickly access relevant recommendations."
