@@ -34,7 +34,7 @@
   {
     "title": "AV/EDR Bypass Techniques for new Hackers",
     "url": "./../books/AC DER BY PASS TECH.HACKERS.pdf",
-    "category": null,
+    "category": "AV, Obfuscate",
     "size": 1148362,
     "author": "Joas Antonio (C0d3Cr4zy)",
     "description": "Endpoint detection and response technology is used to protect endpoints, which are computer hardware devices, from threat. Creators of the EDR technology based platforms deploy tools to gather data from endpoint devices, and then analyze the data to reveal potential cyber threats and issues. It is a protection against hacking attempts and theft of user data. The software is installed on the end-user device and it is continually monitored. The data is stored in a centralized database. In an incident when a threat is found, the end-user is immediately prompted with preventive list of actions;"
@@ -66,7 +66,7 @@
   {
     "title": "Blue Team cheat Sheet",
     "url": "./../books/Blue Team cheat Sheet.pdf",
-    "category": null,
+    "category": "Blue Team",
     "size": 14284168,
     "author": "Chris Davis",
     "description": "List of cheat sheets from other sources. As such, you will find reference to many different individuals or organizations that created these cheat sheets. I take no credit for any of their creations save for one or two that I did create. As such, the Blue Team Cheat Sheet book is completely free and open for use for anyone to have or edit. I merely brought them all together into one source."
@@ -98,7 +98,7 @@
   {
     "title": "Common Sense Guide to Mitigating Insider Threats, v7",
     "url": "./../books/Common Sense Guide to Mitigating Insider Threats, v7.pdf",
-    "category": null,
+    "category": "Threats Mitigating, OSINT",
     "size": 10579925,
     "author": "Carnegie Mellon University.",
     "description": "his guide serves as a resource for stakeholders building or maturing IRMPs. Decision makers across the organization benefit from reading it because insider threats are influenced by a combination of technical, behavioral, and organizational issues that must be addressed by policies, procedures, and technologies. An organization’s cross-departmental workforce members who are involved in Management, Human Resources, Legal Counsel, Physical Security, Information Technology, Information Security, Data Owners, and Software Engineers should appreciate the scope and complexity of insider risk management. This guide identifies the organization’s groups that have a role in implementing each practice so group members can quickly access relevant recommendations."
