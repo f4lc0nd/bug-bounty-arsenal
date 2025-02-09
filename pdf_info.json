@@ -1,48 +1,48 @@
 [
   {
-    "title": "McGraw Hill Hacking Exposed Linux",
+    "title": "HACKING EXPOSED LINUX: LINUX SECURITY SECRETS & SOLUTIONS THIRD EDITION",
     "url": "./../books/McGraw_Hill_Hacking_Exposed_Linux_3rd_Edition_Jul_2008_ISBN_0072262575.pdf",
-    "category": null,
+    "category": "Linux, Security",
     "size": 10989983,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "The McGraw-Hill Companies",
+    "description": "This book is meant to be practical; you won’t just learn how to run an exploit or two that will be patched by the time you finish reading about it. The knowledge and the tools to do all the hacking is in the book; however, instead of specific exploits, we cover types of threats. This way even if an exploit is patched, the knowledge as to how the exploit could work, how a security control can be circumvented, and how an interaction such as trust can be abused will still help you analyze potential problems. By not securing against specific threats or exploits, you are much more capable of testing for and applying security that will cover potential, though yet unknown, threats. Structurally, this book follows the five channels identified in the Open Source Security Testing Methodology Manual (OSSTMM) for security interactions: physical, tele-communications, data networking, human, and wireless. The first three chapters explain how security and controls work according to the latest ISECOM research and set the stage for understanding how to analyze security. Then the book follows the logical separation of the most common uses of Linux to create a compendium of security knowledge—no matter what you want to do with your Linux system. It is possible to read the book straight through and absorb all the information like a sponge if you can. Or you can hop from chapter to chapter depending on what areas you are concerned about securing on your specific Linux system. Maybe you want to try testing wireless access points, VoIP, or telecommunications? Just jump to the appropriate chapter. Or even if you simply want to make sure your desktop applications don’t get the best of your Linux system through phishing, SPAM, and rootkits, we cover user attacks as part of the human security channel. Then, again, you could always just browse through the book at your leisure."
   },
   {
     "title": "Cyber security prcaticle training",
     "url": "./../books/cyber security prcaticle training.pdf",
-    "category": null,
+    "category": "Cyber Security",
     "size": 1060026,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "1:M Cyber Security LLC",
+    "description": "PRACTICAL TRAINING GUIDE To Protect Your Self And Avoiding Different Attacks"
   },
   {
-    "title": "Active Directory Penetration",
+    "title": "Pen Testing Active Directory Environments",
     "url": "./../books/Active Directory Penetration.pdf",
-    "category": null,
+    "category": "Active Directory, Pentesting, PowerShell",
     "size": 3191125,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "VARONIS",
+    "description": "I was talking to a pen testing company recently at a data security conference to learn more about “day in the life” aspects of their trade. Their president told me that one of their initial obstacles in getting an engagement is fear from IT that the pen testers will bring down the system. Some of the most interesting pen testing can be accomplished by passively gathering information. I’ve already covered some of these ideas in my “pen testing explained” series, where I showed that the more you know about your environment — IP addresses, computer names, users and especially admin accounts, as well as where sensitive content is likely to reside — the better position you’re in as a hacker to get the goodies and do real damage to the victim. Hackers have known for a long time that Active Directory is a very rich source of this kind of incidental information – really metadata – that can be used to accelerate the post-exploitation process. The origin of this ebook comes out of my own experiences exploring and blogging about the detailed data on users, groups, and other system information held within Active Directory. In this ebook, we’ll learn more about PowerView, which is part of the PowerShell Empire, a post-exploitation environment. PowerView essentially gives you easy access to AD information, wrapping the raw API calls into a more useful set of PowerShell cmldlets. Active Directory information is also about connections, so it makes sense to understand some graph theory to get the most out of the Active Directory data. We’ll be looking into basic graph ideas as well. In writing this ebook, I’m very aware that I’m standing on the shoulders of giants. This includes Will Schroeder and Justin Warner, who co-founded the PowerShell Empire project, as well as Andy Robbins."
   },
   {
-    "title": "AI in Cybersecurity",
+    "title": "Artificial Intelligence and Cybersecurity",
     "url": "./../books/AI in Cybersecurity.pdf",
-    "category": null,
+    "category": "AI, Cybersecurity",
     "size": 3118263,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "CEPS Task Force Report",
+    "description": "This report is based on discussions in CEPS’ Task Force on Artificial Intelligence and Cybersecurity. The Task Force was composed of industry experts, representatives of EU and international institutions, academics, civil society organisations and practitioners (see list of participants in Annex II). The activity of the group started in autumn 2019, met on four separate occasions and continued online during the Covid-19 breakout, until March 2021. As Coordinator of the Task Force, I would like to acknowledge the invaluable contributions of all the participants in this work. Particular thanks go to the members of the Advisory Board: Joanna Bryson at the Hertie School for Governance, Berlin, Mariarosaria Taddeo at the University of Oxford, Jean-Marc Rickli at the Geneva Centre for Security Policy and Marc Ph. Stoecklin at IBM Research Center, Zurich. I also wish to acknowledge the substantial work done by my fellow rapporteurs, Stefano Fantin, Afonso Ferreira and Carolina Polito. This work has been a collective endeavour and, as indicated in the text itself, other Task Force participants or members of the advisory board directly contributed their expertise by personally drafting selected sections of the report, namely Joanna Bryson, Mariarosaria Taddeo, Jean-Marc Rickli, David Clark, Rob Spiger, Chris Hutchins, Matt Walmsley, Sebastian Gerlach, and Matti Aksela. I am also grateful to members who kindly volunteered to review earlier versions of this report, especially Marc Radice, Carol Mezat, Alex Sangers, Rachel Azafrani, Philip Graefen, Giuseppe Giovanni Daquino, Federica Russo, Nineta Polemi, Wide Hogenhout and Miguel Gonzales- Sancho-Bodero. Thanks also go to the invited speakers who contributed to the Task Force discussions."
   },
   {
-    "title": "Endpoint detection and response",
+    "title": "AV/EDR Bypass Techniques for new Hackers",
     "url": "./../books/AC DER BY PASS TECH.HACKERS.pdf",
     "category": null,
     "size": 1148362,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "Joas Antonio (C0d3Cr4zy)",
+    "description": "Endpoint detection and response technology is used to protect endpoints, which are computer hardware devices, from threat. Creators of the EDR technology based platforms deploy tools to gather data from endpoint devices, and then analyze the data to reveal potential cyber threats and issues. It is a protection against hacking attempts and theft of user data. The software is installed on the end-user device and it is continually monitored. The data is stored in a centralized database. In an incident when a threat is found, the end-user is immediately prompted with preventive list of actions;"
   },
   {
     "title": "Attacks on TCP",
     "url": "./../books/Attacks on TCP.pdf",
-    "category": null,
+    "category": "Networking",
     "size": 1590033,
     "author": "Unknown",
     "description": "No description found"
@@ -50,729 +50,57 @@
   {
     "title": "Best Practices for MITRE ATT&CK® Mapping",
     "url": "./../books/MITRE ATTACKS.pdf",
-    "category": null,
+    "category": "Phishing, Network",
     "size": 1597625,
-    "author": "CISA, HSSEDI + MITRE ATT&CK",
-    "description": "MITRE ATT&CK® Mapping"
+    "author": "TLP:WHITE",
+    "description": "For the Cybersecurity and Infrastructure Security Agency (CISA), understanding adversary behavior is often the first step in protecting networks and data. The success network defenders have in detecting and mitigating cyberattacks depends on this understanding. The MITRE ATT&CK® framework is a globally accessible knowledge base of adversary tactics and techniques based on real-world observations. ATT&CK provides details on 100+ threat actor groups, including the techniques and software they are known to use. 1 ATT&CK can be used to identify defensive gaps, assess security tool capabilities, organize detections, hunt for threats, engage in red team activities, or validate mitigation controls. CISA uses ATT&CK as a lens through which to identify and analyze adversary behavior. CISA created this guide with the Homeland Security Systems Engineering and Development InstituteTM (HSSEDI), a DHS-owned federally funded research and development center (FFRDC), which worked with the MITRE ATT&CK team."
   },
   {
-    "title": "Big bounty",
+    "title": "How To Start Bug Bounty ?",
     "url": "./../books/Big bounty.pdf",
-    "category": null,
+    "category": "Bug Bounty, Cybersecurity",
     "size": 972045,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "#Digitokawn",
+    "description": "DON'T START BUG BOUNTY BECAUSE YOU FEEL LIKE IT'S EASY MONEY. THERE IS TOO MUCH HARD WORK AND CONTINUOUS LEARNING THAT MOST PEOPLE CANNOT SEE. Do bug bounty only if it entertains you and you're passionate about it. Otherwise the only thing you'd earn is disappointment"
   },
   {
     "title": "Blue Team cheat Sheet",
     "url": "./../books/Blue Team cheat Sheet.pdf",
     "category": null,
     "size": 14284168,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "Chris Davis",
+    "description": "List of cheat sheets from other sources. As such, you will find reference to many different individuals or organizations that created these cheat sheets. I take no credit for any of their creations save for one or two that I did create. As such, the Blue Team Cheat Sheet book is completely free and open for use for anyone to have or edit. I merely brought them all together into one source."
   },
   {
     "title": "CHFIv9 STUDY GUIDE_NEW",
     "url": "./../books/CHFIv9 STUDY GUIDE_NEW.pdf",
-    "category": null,
+    "category": "Computer Forensics, Investigations",
     "size": 1008310,
     "author": "Robert Weber",
-    "description": "No description found"
-  },
-  {
-    "title": "CISCO SD-WAN _ NAT - Part 1",
-    "url": "./../books/CISCO SD-WAN _ NAT - Part 1.pdf",
-    "category": null,
-    "size": 1361780,
-    "author": "Unknown",
-    "description": "No description found"
+    "description": "A forensic examiner must keep in mind certain rules to follow during a computer forensic examination, as well as to handle and analyze the evidence. This will safeguard the integrity of the evidence and render it acceptable in a court of law. The forensic examiner must make duplicate copies of the original evidence and start by examining only the duplicates. The duplicate copies must be accurate replications of the originals, and the forensic examiner must also authenticate the duplicate copies to avoid questions about the integrity of the evidence. The computer forensic examiner must not continue with the investigation if the examination is going to be beyond his or her knowledge level or skill level."
   },
   {
     "title": "CISSP For Dummies, 4th Edition",
     "url": "./../books/CISSP_For_Dummies-4E.pdf",
-    "category": null,
+    "category": "Security, Vulnerabilities",
     "size": 28411499,
-    "author": "Miller, Lawrence",
-    "description": "No description found"
-  },
-  {
-    "title": "Cissp_Glossary",
-    "url": "./../books/Cissp_Glossary.pdf",
-    "category": null,
-    "size": 569172,
-    "author": "Pranshu Maheria",
-    "description": "No description found"
+    "author": "Lawrence Miller and Peter H. Gregory",
+    "description": "Our goal in this book is simple: to help you prepare for and pass the CISSP examination so that you can join the ranks of respected certified security professionals who dutifully serve organizations and industries around the world. Although we’ve stuffed it chock-full of good information, we don’t expect that this book will be a weighty desktop reference on the shelf of every security professional — although we certainly wouldn’t object. And we don’t intend for this book to be an all-purpose, be-all-and-end-all, one- stop shop that has all the answers to life’s great mysteries. Given the broad base of knowledge required for the CISSP certification, we strongly recommend that you use multiple resources to prepare for the exam. This book can pro- vide you with a road map to the CISSP certification and sufficient information to help you pass the exam. But it won’t make you an instant security expert! As a security professional, you may find that earning the CISSP certification is only a beginning. Business and technology, which have associated risks and vulnerabilities, require that each of us — as security professionals — constantly press forward, consuming vast volumes of knowledge and information in a con- stant tug-of-war against the bad guys. Thus, when you prepare for your CISSP certification, study as much relevant information as your time and resources allow. CISSP For Dummies, 4th Edition, provides the framework and the blueprint for your study e"
   },
   {
     "title": "Coding for Penetration Testers: Building Better Tools",
     "url": "./../books/Coding_for_Penetration_Testers_Building_Better_Tools_Jason_Andress.pdf",
-    "category": null,
+    "category": "Coding, Pentesting, Tools",
     "size": 10357949,
     "author": "Jason Andress & Ryan Linn",
-    "description": "No description found"
+    "description": "What sets a good penetration tester apart from an average one is the ability to adapt to the ever-changing landscape within which we live. One aspect of this adaptability is the skill to build, extend, and manipulate scripts and applications encountered in the field. Whether tools already exist to accomplish a task, or one needs to be built to take advantage of a new vulnerability, the ability to build and extend tools in a variety of scripting languages is important. Each of the first five chapters of this resource delves into a different scripting language that we may encounter while performing penetration tests. Through investigating the core aspects of each language, either on Microsoft platforms, or on Linux platforms such as BackTrack 5, each chapter brings to light the power and strengths of each language. We will use these strengths to build a series of scripts to help us understand the intricacies of each language, and in most cases develop a basic tool that we can use and extend while penetration testing. Whether it is through shell scripting, Python, Perl, Ruby, or PHP, we will cover the basics of each language and discuss topics such as output handling, loops and control statements, networking, and command execution. Once the core language concepts have been covered, Coding for Penetration Testers tackles the core tasks of penetration testing. While covering scanner scripting and information gathering, we will discuss tools such as Nmap and Nessus and use the scripting languages behind them to extend the capabilities of both tools. Information gathering is one of the first and most important steps of a penetration test. We don’t know what we’re attacking until we do the initial research. Chapter 8 investigates how to automate information gathering tasks to be more effective and to have repeatable results. Once we’ve gathered the information, we’re ready to begin the offensive. Through looking at Python as an exploit delivery tool, we will discuss the basics of exploit development. Walking through building a working exploit, Chapter 9 takes us through each step of the process, from creating a Proof of Concept (POC) to creating a repeatable and extendable exploit within the Metasploit Framework."
   },
   {
     "title": "Common Sense Guide to Mitigating Insider Threats, v7",
     "url": "./../books/Common Sense Guide to Mitigating Insider Threats, v7.pdf",
     "category": null,
     "size": 10579925,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Complete Guide to CISM Certification",
-    "url": "./../books/Complete Guide to CISM Certification.pdf",
-    "category": null,
-    "size": 18136042,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Comptia Security Plus Certification Guide Ebook",
-    "url": "./../books/comptiasecuritypluscertificationguide_ebook.pdf",
-    "category": null,
-    "size": 13353368,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Computer Forensics: Investigating Data and Image Files",
-    "url": "./../books/CHFI_v03_Computer_Forensics_Investigating_Data_&_Image_Files.pdf",
-    "category": null,
-    "size": 18249725,
-    "author": "EC-Council",
-    "description": "No description found"
-  },
-  {
-    "title": "Computer Forensics: Investigation Procedures and Response",
-    "url": "./../books/CHFI_v01_Computer_Forensics_Investigation_Procedures_&_Response.pdf",
-    "category": null,
-    "size": 4029563,
-    "author": "EC-Council",
-    "description": "No description found"
-  },
-  {
-    "title": "Control System Defense_ Know the Opponent ",
-    "url": "./../books/Control System Defense_ Know the Opponent .pdf",
-    "category": null,
-    "size": 588219,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Cross-Sector Cybersecurity Performance Goals 2022",
-    "url": "./../books/CROSS SECTORY CYBERSECURITY.pdf",
-    "category": null,
-    "size": 924253,
-    "author": "Cybersecurity & Infrastructure Security Agency (CISA)",
-    "description": "CPG 2022"
-  },
-  {
-    "title": "CYBER SEC BASICS",
-    "url": "./../books/CYBER SEC BASICS.pdf",
-    "category": null,
-    "size": 346853,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Cyber Security For CISO-CIO-CTO",
-    "url": "./../books/Cyber Security For CISO-CIO-CTO.pdf",
-    "category": null,
-    "size": 1154198,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Cyber Security Russia",
-    "url": "./../books/cyber security russia.pdf",
-    "category": null,
-    "size": 4729507,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "CyberCrime Espionage",
-    "url": "./../books/CyberCrime Espionage.pdf",
-    "category": null,
-    "size": 15085561,
-    "author": "Will Gragido",
-    "description": "No description found"
-  },
-  {
-    "title": "Definitive Guide to SOC-as-a-Service",
-    "url": "./../books/SAAS.pdf",
-    "category": null,
-    "size": 6073297,
-    "author": "Crystal Medell",
-    "description": "No description found"
-  },
-  {
-    "title": "DETECTION TOOL",
-    "url": "./../books/DETECTION TOOL.pdf",
-    "category": null,
-    "size": 2908607,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Malware Detection",
-    "url": "./../books/document Malware.pdf",
-    "category": null,
-    "size": 2512366,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Ethical Hacking and Countermeasures: Web Applications and Data Servers",
-    "url": "./../books/CEH_v03_Ethical_Hacking_&_Countermeasures_Web_Applications_&_Data.pdf",
-    "category": null,
-    "size": 14100796,
-    "author": "EC-Council",
-    "description": "No description found"
-  },
-  {
-    "title": "Firewall Checklist",
-    "url": "./../books/FirewallChecklist.pdf",
-    "category": null,
-    "size": 112051,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Framework for Improving Critical Infrastructure Cybersecurity, Version 1.1",
-    "url": "./../books/NIST.CSWP.04162018.pdf",
-    "category": null,
-    "size": 1062822,
-    "author": "National Institute of Standards and Technology",
-    "description": "This publication describes a voluntary risk management framework (“the Framework”) that consists of standards, guidelines, and best practices to manage cybersecurity-related risk.  The Framework’s prioritized, flexible, and cost-effective approach helps to promote the protection and resilience of critical infrastructure and other sectors important to the economy and national security.\r\n\r\nThis release, Version 1.1, includes a number of updates from the original Version 1.0 (from February 2014), including: a new section on self-assessment; expanded explanation of using the Framework for cyber supply chain risk management purposes; refinements to better account for authentication, authorization, and identity proofing; explanation of the relationship between implementation tiers and profiles; and consideration of coordinated vulnerability disclosure. Complete information about the Framework is available at https://www.nist.gov/cyberframework."
-  },
-  {
-    "title": "Gray Hat Hacking The Ethical Hacker's Handbook, Fourth Edition",
-    "url": "./../books/McGraw_Hill_Gray_Hat_Hacking_4th_Edition_Jan_2015_ISBN_0071832386.pdf",
-    "category": null,
-    "size": 33898420,
-    "author": "Daniel Regalado & Shon Harris & Allen Harper & Chris Eagle & Jonathan Ness & Branko Spasojevic & Ryan Linn & Stephen Sims",
-    "description": "No description found"
-  },
-  {
-    "title": "HACKING EXPOSED: NETWORK SECURITY SECRETS & SOLUTIONS SECOND EDITION",
-    "url": "./../books/McGraw_Hill_Hacking_Exposed_Network_Security_Secrets_And_Solutions.pdf",
-    "category": null,
-    "size": 8438744,
-    "author": "JOEL SCAMBRAY\r\nSTUART MCCLURE\r\nGEORGE KURTZ",
-    "description": "Free Open Share"
-  },
-  {
-    "title": "Hacking Gmail",
-    "url": "./../books/John Wiley &amp_ Sons.Hacking GMail (ExtremeTech).pdf",
-    "category": null,
-    "size": 5545032,
-    "author": "Ben Hammersley",
-    "description": "TEAM DDU"
-  },
-  {
-    "title": "How To Break into Cybersecurity",
-    "url": "./../books/5 Steps to Get a Job in Cyber Security.pdf",
-    "category": null,
-    "size": 266139,
-    "author": "Tracey O",
-    "description": "No description found"
-  },
-  {
-    "title": "How To Identify and Plug Gaps In Your Cybersecurity Posture",
-    "url": "./../books/CYBERSECURITY POSTRE.pdf",
-    "category": null,
-    "size": 7175987,
-    "author": "GRCXperts",
-    "description": "No description found"
-  },
-  {
-    "title": "Industry Map – Oct 2022",
-    "url": "./../books/Navigating Crypto Industry Map.pdf",
-    "category": null,
-    "size": 8680659,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Intro To Crypto",
-    "url": "./../books/IntroToCrypto.pdf",
-    "category": null,
-    "size": 3689389,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "JavaScript by Example, 2nd Edition",
-    "url": "./../books/JavaScript by Example, 2nd Edition.pdf",
-    "category": null,
-    "size": 28160154,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "JavaScript: The Definitive Guide",
-    "url": "./../books/Javascript.pdf",
-    "category": null,
-    "size": 13821549,
-    "author": "David Flanagan",
-    "description": "No description found"
-  },
-  {
-    "title": "Kali Linux CTF Blueprints",
-    "url": "./../books/KaliLinuxCTF.pdf",
-    "category": null,
-    "size": 3706269,
-    "author": "Buchanan, Cam",
-    "description": "No description found"
-  },
-  {
-    "title": "Kali Linux Network Scanning Cookbook",
-    "url": "./../books/KaliNetworkScanning.pdf",
-    "category": null,
-    "size": 5141358,
-    "author": "Hutchens, Justin",
-    "description": "No description found"
-  },
-  {
-    "title": "Kali Linux Revealed",
-    "url": "./../books/KaliLinuxRevealed.pdf",
-    "category": null,
-    "size": 27698109,
-    "author": "Raphaël Hertzog, Jim O’Gorman, Mati Aharoni",
-    "description": "Kali Linux is comprised of many powerful tools but you cannot put them to good use if you don’t master the underlying operating system. This book covers everything you need to know to be able to effectively use and deploy Kali Linux.\nThis book will discuss basic Linux usage for beginners, Debian package management and usage, Kali installation, configuration, security, and advanced Kali usage including how Kali fits within the enterprise and Kali’s role in various phases of a security assessment.\nIt will serve as an introduction to Kali for beginners but also to cater to users pursuing Kali certification and advanced users seeking more in-depth use cases and inspiration."
-  },
-  {
-    "title": "Kali Linux Social Engineering",
-    "url": "./../books/KaliSocialEngineering.pdf",
-    "category": null,
-    "size": 4010566,
-    "author": "Rahul Singh Patel",
-    "description": "No description found"
-  },
-  {
-    "title": "Kali Linux – Assuring Security by Penetration Testing",
-    "url": "./../books/KaliLinux.pdf",
-    "category": null,
-    "size": 8865352,
-    "author": "Lee Allen,Tedi Heriyanto,Shakeel Ali",
-    "description": "No description found"
-  },
-  {
-    "title": "Kali Wireless",
-    "url": "./../books/Kali Wireless.pdf",
-    "category": null,
-    "size": 17741559,
-    "author": "Unknown",
-    "description": "www.it-ebooks.info"
-  },
-  {
-    "title": "KaliLinuxCookBook",
-    "url": "./../books/KaliLinuxCookBook.pdf",
-    "category": null,
-    "size": 11187092,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "kalitoolslistwithshortdescription",
-    "url": "./../books/kalitoolslistwithshortdescription.pdf",
-    "category": null,
-    "size": 463622,
-    "author": "Mark R. Dearlove",
-    "description": "No description found"
-  },
-  {
-    "title": "Linux Bible",
-    "url": "./../books/linux-bible-by-christopher-negus.pdf",
-    "category": null,
-    "size": 15297492,
-    "author": "Christopher Negus",
-    "description": "No description found"
-  },
-  {
-    "title": "malware types",
-    "url": "./../books/Common Malware Types.pdf",
-    "category": null,
-    "size": 153010,
-    "author": "Karthik K",
-    "description": "No description found"
-  },
-  {
-    "title": "Mastering Kali Linux for Advanced Penetration Testing",
-    "url": "./../books/KaliAdvancedPentest.pdf",
-    "category": null,
-    "size": 9491986,
-    "author": "Beggs, Robert",
-    "description": "No description found"
-  },
-  {
-    "title": "Mastering Nmap Scripting",
-    "url": "./../books/Mastering Nmap Scripting.pdf",
-    "category": null,
-    "size": 2076367,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Microsoft Word - Building an Application Security Program v2.docx",
-    "url": "./../books/Building an Application Security Program.pdf",
-    "category": null,
-    "size": 137688,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Mining the Social Web",
-    "url": "./../books/Mining Social Web.pdf",
-    "category": null,
-    "size": 22178760,
-    "author": "Matthew A. Russell",
-    "description": "No description found"
-  },
-  {
-    "title": "Natural Language Processing with Python",
-    "url": "./../books/Natural Language Processing Python.pdf",
-    "category": null,
-    "size": 5575507,
-    "author": "Steven Bird",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Attacks & Exploitation: A Framework",
-    "url": "./../books/Network Attacks and Exploitation.pdf",
-    "category": null,
-    "size": 26370207,
-    "author": "Matthew Monte",
-    "description": "www.it-ebooks.info"
-  },
-  {
-    "title": "Network Defense: Perimeter Defense Mechanisms",
-    "url": "./../books/Network Defense_ Perimeter Defense Mechanisms.pdf",
-    "category": null,
-    "size": 6005107,
-    "author": "EC-Council",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Defense_ Fundamentals & Protocols",
-    "url": "./../books/Network Defense_ Fundamentals & Protocols.pdf",
-    "category": null,
-    "size": 16561886,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Defense_ Security & Vulnerability Assessment",
-    "url": "./../books/Network Defense_ Security & Vulnerability Assessment.pdf",
-    "category": null,
-    "size": 13039535,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Defense_ Security Policy & Threats",
-    "url": "./../books/Network Defense_ Security Policy & Threats.pdf",
-    "category": null,
-    "size": 13132784,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Performance and Security",
-    "url": "./../books/Network Performance and Security.pdf",
-    "category": null,
-    "size": 66016291,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Safety Certification",
-    "url": "./../books/Network Safety Certification.pdf",
-    "category": null,
-    "size": 3342155,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Network Security Through Data Analysis",
-    "url": "./../books/Network Security Through Data.pdf",
-    "category": null,
-    "size": 14058738,
-    "author": "Michael Collins",
-    "description": "No description found"
-  },
-  {
-    "title": "Network_Defense__Securing_&_Troubleshooting_Network_Operating_System",
-    "url": "./../books/Network_Defense__Securing_&_Troubleshooting_Network_Operating_System.pdf",
-    "category": null,
-    "size": 13768913,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "NIST",
-    "url": "./../books/NIST.pdf",
-    "category": null,
-    "size": 489833,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "NIST Cybersecurity Framework",
-    "url": "./../books/NIST Cyber Security Framework.pdf",
-    "category": null,
-    "size": 116476,
-    "author": "Karthik K",
-    "description": "No description found"
-  },
-  {
-    "title": "NIST Cybersecurity Framework",
-    "url": "./../books/NIST Cybersecurity Framework.pdf",
-    "category": null,
-    "size": 287317,
-    "author": "Karthik K",
-    "description": "No description found"
-  },
-  {
-    "title": "O_Reilly - Network Security with OpenSSL Ebook - Fly",
-    "url": "./../books/O_Reilly - Network Security with OpenSSL Ebook - Fly.pdf",
-    "category": null,
-    "size": 2526496,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Offensive Security Professional Overview Survival",
-    "url": "./../books/Offensive Security Professional Overview Survival.pdf",
-    "category": null,
-    "size": 298422,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "OSCP Preparation Guide",
-    "url": "./../books/OSCP Preparation Guide.pdf",
-    "category": null,
-    "size": 740124,
-    "author": "Hacker",
-    "description": "No description found"
-  },
-  {
-    "title": "OSCP_Cheat_Sheet_-_Thor-Sec",
-    "url": "./../books/OSCP_Cheat_Sheet_-_Thor-Sec.pdf",
-    "category": null,
-    "size": 1738559,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "OSINT",
-    "url": "./../books/OSINT.pdf",
-    "category": null,
-    "size": 3870102,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "PDF NIST Cybersecurity Framework",
-    "url": "./../books/NIST Cyber Security Framework - Overview.pdf",
-    "category": null,
-    "size": 3504095,
-    "author": "Karthik K",
-    "description": "No description found"
-  },
-  {
-    "title": "Penetration Testing with Kali Linux",
-    "url": "./../books/OSCP OffSec Penetration Testing with Kali Linux (2014).pdf",
-    "category": null,
-    "size": 18158826,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "PowerPoint Presentation",
-    "url": "./../books/API Security threats.pdf",
-    "category": null,
-    "size": 225999,
-    "author": "Pradeep Keith Fernandez",
-    "description": "No description found"
-  },
-  {
-    "title": "PowerPoint Presentation",
-    "url": "./../books/Open Source Tools .pdf",
-    "category": null,
-    "size": 697127,
-    "author": "jessica gulick",
-    "description": "No description found"
-  },
-  {
-    "title": "RANSOMWARE DEFENSE REPORT",
-    "url": "./../books/RANSOMWARE DEFENSE REPORT.pdf",
-    "category": null,
-    "size": 4457683,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Red Teaming Handbook, 3rd Edition ",
-    "url": "./../books/20210625-Red_Teaming_Handbook.pdf",
-    "category": null,
-    "size": 4153293,
-    "author": "DCDC",
-    "description": "No description found"
-  },
-  {
-    "title": "SANS TOOLS",
-    "url": "./../books/SANS TOOLS.pdf",
-    "category": null,
-    "size": 1026041,
-    "author": "sans.org/free",
-    "description": "No description found"
-  },
-  {
-    "title": "SECHARD Complete Zero Trust is now possible",
-    "url": "./../books/zero Trust Archi.pdf",
-    "category": null,
-    "size": 11912174,
-    "author": "GRCXperts",
-    "description": "No description found"
-  },
-  {
-    "title": "Security Operation Center Tools",
-    "url": "./../books/100 Security Operation Center Tools.pdf",
-    "category": null,
-    "size": 1225436,
-    "author": "Joas Antonio dos Santos Barbosa",
-    "description": "No description found"
-  },
-  {
-    "title": "Security Risk OWASP 1080x 1920 px",
-    "url": "./../books/OWASP Top 10 vulnerabilities .pdf",
-    "category": null,
-    "size": 1452139,
-    "author": "Karthik K",
-    "description": "No description found"
-  },
-  {
-    "title": "Small Business Guide Cyber Security",
-    "url": "./../books/Small Business Guide Cyber Security.pdf",
-    "category": null,
-    "size": 3240525,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "SUPPORT SEC PROVIDER",
-    "url": "./../books/SUPPORT SEC PROVIDER.pdf",
-    "category": null,
-    "size": 2287542,
-    "author": "ASUS",
-    "description": "No description found"
-  },
-  {
-    "title": "CompTIA Security+ Exam",
-    "url": "./../books/comptia.passleader.sy0-601.pdf.2021-sep-15.by.alexander.158q.vce.pdf",
-    "category": null,
-    "size": 273225,
-    "author": "Certleader.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Certification For All ",
-    "url": "./../books/comptia.certforall.sy0-601.brain.dumps.2021-oct-12.by.allen.276q.vce.pdf",
-    "category": null,
-    "size": 153114,
-    "author": "Certshared.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Test Inside",
-    "url": "./../books/comptia.test-inside.sy0-601.free.pdf.2022-mar-21.by.tiffany.169q.vce.pdf",
-    "category": null,
-    "size": 196692,
-    "author": "Certleader.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Pass Guide",
-    "url": "./../books/comptia.passguide.sy0-601.pdf.download.2022-apr-22.by.timothy.269q.vce.pdf",
-    "category": null,
-    "size": 273225,
-    "author": "Certleader.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Exam Bible",
-    "url": "./../books/comptia.exambible.sy0-601.simulations.2021-nov-16.by.hardy.313q.vce.pdf",
-    "category": null,
-    "size": 341815,
-    "author": "Certleader.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Self Test Engine",
-    "url": "./../books/comptia.selftestengine.sy0-601.sample.question.2021-oct-30.by.moses.287q.vce.pdf",
-    "category": null,
-    "size": 341815,
-    "author": "Certleader.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Actual Tests",
-    "url": "./../books/comptia.actualtests.sy0-601.sample.question.2021-aug-31.by.egbert.190q.vce.pdf",
-    "category": null,
-    "size": 332754,
-    "author": "2passeasy.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Self Test Engine",
-    "url": "./../books/comptia.selftestengine.sy0-601.exam.prep.2022-jan-08.by.rachel.207q.vce.pdf",
-    "category": null,
-    "size": 153714,
-    "author": "Certleader.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "SY0-601 Dumps Test Inside",
-    "url": "./../books/comptia.test-inside.sy0-601.exam.dumps.2021-aug-22.by.newman.204q.vce.pdf",
-    "category": null,
-    "size": 652805,
-    "author": "2passeasy.com",
-    "description": "CompTIA Security+ Exam"
-  },
-  {
-    "title": "Web Application Pen test",
-    "url": "./../books/Web Application Pen test.pdf",
-    "category": null,
-    "size": 135091,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "Web Testing Security Guide",
-    "url": "./../books/Web Testing Security Guide.pdf",
-    "category": null,
-    "size": 3572800,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "WebPenTestKali",
-    "url": "./../books/WebPenTestKali.pdf",
-    "category": null,
-    "size": 20658489,
-    "author": "Unknown",
-    "description": "No description found"
-  },
-  {
-    "title": "windows event log analysis",
-    "url": "./../books/windows event log analysis.pdf",
-    "category": null,
-    "size": 616324,
-    "author": "Unknown",
-    "description": "No description found"
+    "author": "Carnegie Mellon University.",
+    "description": "his guide serves as a resource for stakeholders building or maturing IRMPs. Decision makers across the organization benefit from reading it because insider threats are influenced by a combination of technical, behavioral, and organizational issues that must be addressed by policies, procedures, and technologies. An organization’s cross-departmental workforce members who are involved in Management, Human Resources, Legal Counsel, Physical Security, Information Technology, Information Security, Data Owners, and Software Engineers should appreciate the scope and complexity of insider risk management. This guide identifies the organization’s groups that have a role in implementing each practice so group members can quickly access relevant recommendations."
   }
 ]
