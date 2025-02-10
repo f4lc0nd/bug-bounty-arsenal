@@ -356,7 +356,7 @@
     "category": "Reconnaissance",
     "usedTools": [
       "subfinder",
-      "httpsm grep",
+      "https, grep",
       "unfurl"
     ],
     "createdAt": "2025-02-10T18:06:44.145Z"
