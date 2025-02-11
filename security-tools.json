@@ -562,8 +562,41 @@
         "prototype pollution",
         "scanner"
       ],
+    },
+    {
 
-      "id": "favirecon",
+      "id": "scilla",
+      "name": "scilla",
+      "description": "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
+      "category": "reconnaissance",
+      "command": "scilla subdomain -target target.domain",
+      "url": "https://github.com/edoardottt/scilla",
+      "documentation": "https://github.com/edoardottt/scilla",
+      "tags": [
+        "information gathering",
+        "dns",
+        "subdomains",
+        "ports",
+        "directories enumeration"
+      ]},
+      {
+      "id": "cariddi",
+      "name": "cariddi",
+      "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more",
+      "category": "content-discovery",
+      "command": "cat urls | cariddi -s",
+      "url": "https://github.com/edoardottt/cariddi",
+      "documentation": "https://github.com/edoardottt/cariddi",
+      "tags": [
+        "crawler"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "mac",
+        "windows",
+        "linux"
+],
+        },{      "id": "favirecon",
       "name": "favirecon",
       "description": "Use favicon.ico to improve your target recon phase",
       "category": "reconnaissance",
@@ -574,6 +607,12 @@
         "recon"
       ],
       "difficulty": "beginner",
+           "platform": [
+        "mac",
+        "windows",
+        "linux"
+],
+        },{
 
       "id": "lucille",
       "name": "Lucille",
@@ -582,6 +621,13 @@
       "command": "python lucille.py",
       "url": "https://github.com/jasonxtn/Lucille",
       "documentation": "https://github.com/jasonxtn/Lucille",
+           "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+
+      ]
 
       "id": "argus",
       "name": "Argus",
@@ -598,12 +644,7 @@
       "platform": [
         "mac",
         "linux",
-      "difficulty": "intermediate",
-      "platform": [
-        "linux",
-        "mac",
-        "windows"
-      ]
+     
     }
   ]
 }
