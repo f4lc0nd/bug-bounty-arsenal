@@ -551,6 +551,18 @@
       ]
     },
     {
+      "id": "favirecon",
+      "name": "favirecon",
+      "description": "Use favicon.ico to improve your target recon phase",
+      "category": "reconnaissance",
+      "command": "echo https://www.github.com | favirecon",
+      "url": "https://github.com/edoardottt/favirecon",
+      "documentation": "https://github.com/edoardottt/favirecon",
+      "tags": [
+        "recon"
+      ],
+      "difficulty": "beginner",
+
       "id": "lucille",
       "name": "Lucille",
       "description": "Lucille is a comprehensive web application security testing tool designed for cybersecurity professionals. built with Python, Lucille offers a suite of user-friendly tools, it aims to provide an efficient and practical tools streamlining pentesting tasks and centralizing various audit and exploitation techniques.",
