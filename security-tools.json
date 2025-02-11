@@ -549,6 +549,24 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "gourlex-",
+      "name": "Gourlex ",
+      "description": "Gourlex is a simple tool that can be used to extract URLs and paths from web pages",
+      "category": "reconnaissance",
+      "command": "gourlex -t domain.com",
+      "url": "https://github.com/trap-bytes/gourlex",
+      "documentation": "https://github.com/trap-bytes/gourlex",
+      "tags": [
+        "extract files"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
