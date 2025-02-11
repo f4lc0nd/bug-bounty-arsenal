@@ -549,6 +549,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "pphack",
+      "name": "pphack",
+      "description": "The Most Advanced Client-Side Prototype Pollution Scanner",
+      "category": "vulnerability-scanning",
+      "command": "echo https://edoardottt.github.io/pp-test/ | pphack",
+      "url": "https://github.com/edoardottt/pphack",
+      "documentation": "https://github.com/edoardottt/pphack",
+      "tags": [
+        "prototype pollution",
+        "scanner"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
