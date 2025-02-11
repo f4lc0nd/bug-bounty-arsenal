@@ -373,6 +373,10 @@
       "command": "python lucille.py",
       "url": "https://github.com/jasonxtn/Lucille",
       "documentation": "https://github.com/jasonxtn/Lucille",
+      "tags": [
+        "recon",
+        "web exploit"
+      ],
       "difficulty": "intermediate",
       "platform": [
         "linux",
@@ -512,6 +516,12 @@
         "subdomains",
         "ports",
         "directories enumeration"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
       ]
     },
     {
