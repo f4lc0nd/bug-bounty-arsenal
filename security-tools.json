@@ -549,6 +549,28 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "scilla",
+      "name": "scilla",
+      "description": "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
+      "category": "reconnaissance",
+      "command": "scilla subdomain -target target.domain",
+      "url": "https://github.com/edoardottt/scilla",
+      "documentation": "https://github.com/edoardottt/scilla",
+      "tags": [
+        "information gathering",
+        "dns",
+        "subdomains",
+        "ports",
+        "directories enumeration"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
