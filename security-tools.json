@@ -549,6 +549,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "argus",
+      "name": "Argus",
+      "description": "Argus developed by jasonxtn, is an all-in-one, Python-powered toolkit designed to streamline the process of information gathering and reconnaissance. With a user-friendly interface and a suite of powerful modules, Argus empowers you to explore networks, web applications, and security configurations efficiently and effectively.",
+      "category": "reconnaissance",
+      "command": "python argus.py",
+      "url": "https://github.com/jasonxtn/Argus",
+      "documentation": "https://github.com/jasonxtn/Argus",
+      "tags": [
+        "information gathering",
+        "recon"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
