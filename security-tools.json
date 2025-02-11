@@ -549,6 +549,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "sitedorks",
+      "name": "sitedorks",
+      "description": "Search Google/Bing/Ecosia/DuckDuckGo/Yandex/Yahoo for a search term (dork) with a default set of websites, bug bounty programs or custom collection.",
+      "category": "reconnaissance",
+      "command": "sitedorks -cat comm -site disable -engine yandex -query uber",
+      "url": "https://github.com/Zarcolio/sitedorks",
+      "documentation": "https://github.com/Zarcolio/sitedorks",
+      "tags": [
+        "dorks",
+        "recon"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
