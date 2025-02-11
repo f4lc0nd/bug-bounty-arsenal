@@ -549,6 +549,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "csprecon",
+      "name": "csprecon",
+      "description": "Discover new target domains using Content Security Policy",
+      "category": "reconnaissance",
+      "command": "csprecon -u https://www.github.com",
+      "url": "https://github.com/edoardottt/csprecon",
+      "documentation": "https://github.com/edoardottt/csprecon",
+      "tags": [
+        "recon",
+        "subdomains"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
