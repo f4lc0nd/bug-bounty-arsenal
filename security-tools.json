@@ -549,6 +549,24 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "cariddi",
+      "name": "cariddi",
+      "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more",
+      "category": "content-discovery",
+      "command": "cat urls | cariddi -s",
+      "url": "https://github.com/edoardottt/cariddi",
+      "documentation": "https://github.com/edoardottt/cariddi",
+      "tags": [
+        "crawler"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "mac",
+        "windows",
+        "linux"
+      ]
     }
   ]
 }
