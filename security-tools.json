@@ -549,6 +549,25 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "403jump-",
+      "name": "403JUMP ",
+      "description": "403JUMP is a tool designed for penetration testers and bug bounty hunters to audit the security of web applications. It aims to bypass HTTP 403 (Forbidden) pages using various techniques.",
+      "category": "reconnaissance",
+      "command": "403jump -h",
+      "url": "https://github.com/trap-bytes/403jump",
+      "documentation": "https://github.com/trap-bytes/403jump",
+      "tags": [
+        "bypass",
+        "recon"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
