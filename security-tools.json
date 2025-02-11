@@ -584,6 +584,24 @@
       ]
     },
     {
+      "id": "vx0-by-zead-1739299190700",
+      "name": "vx0 by ZEAD",
+      "description": "VX0 is a simple and easy-to-use tool designed for subdomain enumeration, filtering specific data and subdomains and web archive data collection. It helps you discover subdomains, filter live ones, and extract sensitive data from the Wayback Machine.",
+      "category": "reconnaissance",
+      "command": "python3 vx0.py -d example.com",
+      "url": "https://github.com/ZEAD2006/vx0",
+      "documentation": "https://github.com/ZEAD2006/vx0",
+      "tags": [
+        "subdomains"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
       "id": "whatweb",
       "name": "Whatweb",
       "description": "WhatWeb identifies websites. Its goal is to answer the question, \"What is that Website?\". WhatWeb recognises web technologies including content management systems (CMS), blogging platforms, statistic/analytics packages, JavaScript libraries, web servers, and embedded devices. WhatWeb has over 1800 plugins, each to recognise something different. WhatWeb also identifies version numbers, email addresses, account IDs, web framework modules, SQL errors, and more.",
