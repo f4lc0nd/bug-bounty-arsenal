@@ -562,9 +562,14 @@
         "prototype pollution",
         "scanner"
       ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
-
       "id": "scilla",
       "name": "scilla",
       "description": "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
@@ -578,8 +583,9 @@
         "subdomains",
         "ports",
         "directories enumeration"
-      ]},
-      {
+      ]
+    },
+    {
       "id": "cariddi",
       "name": "cariddi",
       "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more",
@@ -595,8 +601,10 @@
         "mac",
         "windows",
         "linux"
-],
-        },{      "id": "favirecon",
+      ]
+    },
+    {
+      "id": "favirecon",
       "name": "favirecon",
       "description": "Use favicon.ico to improve your target recon phase",
       "category": "reconnaissance",
@@ -607,13 +615,13 @@
         "recon"
       ],
       "difficulty": "beginner",
-           "platform": [
+      "platform": [
         "mac",
         "windows",
         "linux"
-],
-        },{
-
+      ]
+    },
+    {
       "id": "lucille",
       "name": "Lucille",
       "description": "Lucille is a comprehensive web application security testing tool designed for cybersecurity professionals. built with Python, Lucille offers a suite of user-friendly tools, it aims to provide an efficient and practical tools streamlining pentesting tasks and centralizing various audit and exploitation techniques.",
@@ -621,14 +629,14 @@
       "command": "python lucille.py",
       "url": "https://github.com/jasonxtn/Lucille",
       "documentation": "https://github.com/jasonxtn/Lucille",
-           "difficulty": "intermediate",
+      "difficulty": "intermediate",
       "platform": [
         "linux",
         "mac",
         "windows"
-
       ]
-
+    },
+    {
       "id": "argus",
       "name": "Argus",
       "description": "Argus developed by jasonxtn, is an all-in-one, Python-powered toolkit designed to streamline the process of information gathering and reconnaissance. With a user-friendly interface and a suite of powerful modules, Argus empowers you to explore networks, web applications, and security configurations efficiently and effectively.",
@@ -643,8 +651,8 @@
       "difficulty": "advanced",
       "platform": [
         "mac",
-        "linux",
-     
+        "linux"
+      ]
     }
   ]
 }
