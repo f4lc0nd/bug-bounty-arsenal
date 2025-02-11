@@ -551,6 +551,20 @@
       ]
     },
     {
+      "id": "pphack",
+      "name": "pphack",
+      "description": "The Most Advanced Client-Side Prototype Pollution Scanner",
+      "category": "vulnerability-scanning",
+      "command": "echo https://edoardottt.github.io/pp-test/ | pphack",
+      "url": "https://github.com/edoardottt/pphack",
+      "documentation": "https://github.com/edoardottt/pphack",
+      "tags": [
+        "prototype pollution",
+        "scanner"
+      ],
+    },
+    {
+
       "id": "scilla",
       "name": "scilla",
       "description": "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
@@ -564,8 +578,8 @@
         "subdomains",
         "ports",
         "directories enumeration"
-      ],
-
+      ]},
+      {
       "id": "cariddi",
       "name": "cariddi",
       "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more",
@@ -581,8 +595,8 @@
         "mac",
         "windows",
         "linux"
-
-      "id": "favirecon",
+],
+        },{      "id": "favirecon",
       "name": "favirecon",
       "description": "Use favicon.ico to improve your target recon phase",
       "category": "reconnaissance",
@@ -593,6 +607,12 @@
         "recon"
       ],
       "difficulty": "beginner",
+           "platform": [
+        "mac",
+        "windows",
+        "linux"
+],
+        },{
 
       "id": "lucille",
       "name": "Lucille",
@@ -601,6 +621,13 @@
       "command": "python lucille.py",
       "url": "https://github.com/jasonxtn/Lucille",
       "documentation": "https://github.com/jasonxtn/Lucille",
+           "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+
+      ]
 
       "id": "argus",
       "name": "Argus",
@@ -617,13 +644,7 @@
       "platform": [
         "mac",
         "linux",
-      "difficulty": "intermediate",
-      "platform": [
-        "linux",
-        "mac",
-        "windows"
-
-      ]
+     
     }
   ]
 }
