@@ -551,6 +551,14 @@
       ]
     },
     {
+      "id": "lucille",
+      "name": "Lucille",
+      "description": "Lucille is a comprehensive web application security testing tool designed for cybersecurity professionals. built with Python, Lucille offers a suite of user-friendly tools, it aims to provide an efficient and practical tools streamlining pentesting tasks and centralizing various audit and exploitation techniques.",
+      "category": "reconnaissance",
+      "command": "python lucille.py",
+      "url": "https://github.com/jasonxtn/Lucille",
+      "documentation": "https://github.com/jasonxtn/Lucille",
+
       "id": "argus",
       "name": "Argus",
       "description": "Argus developed by jasonxtn, is an all-in-one, Python-powered toolkit designed to streamline the process of information gathering and reconnaissance. With a user-friendly interface and a suite of powerful modules, Argus empowers you to explore networks, web applications, and security configurations efficiently and effectively.",
@@ -562,6 +570,10 @@
         "information gathering",
         "recon"
       ],
+      "difficulty": "advanced",
+      "platform": [
+        "mac",
+        "linux",
       "difficulty": "intermediate",
       "platform": [
         "linux",
