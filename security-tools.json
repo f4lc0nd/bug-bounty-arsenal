@@ -551,6 +551,21 @@
       ]
     },
     {
+      "id": "scilla",
+      "name": "scilla",
+      "description": "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
+      "category": "reconnaissance",
+      "command": "scilla subdomain -target target.domain",
+      "url": "https://github.com/edoardottt/scilla",
+      "documentation": "https://github.com/edoardottt/scilla",
+      "tags": [
+        "information gathering",
+        "dns",
+        "subdomains",
+        "ports",
+        "directories enumeration"
+      ],
+
       "id": "cariddi",
       "name": "cariddi",
       "description": "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more",
@@ -606,6 +621,8 @@
       "platform": [
         "linux",
         "mac",
+        "windows"
+
       ]
     }
   ]
