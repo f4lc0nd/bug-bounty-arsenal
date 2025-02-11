@@ -549,6 +549,24 @@
         "mac",
         "windows"
       ]
+    },
+    {
+      "id": "favirecon",
+      "name": "favirecon",
+      "description": "Use favicon.ico to improve your target recon phase",
+      "category": "reconnaissance",
+      "command": "echo https://www.github.com | favirecon",
+      "url": "https://github.com/edoardottt/favirecon",
+      "documentation": "https://github.com/edoardottt/favirecon",
+      "tags": [
+        "recon"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
