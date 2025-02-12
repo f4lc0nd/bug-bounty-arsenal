@@ -383,5 +383,15 @@
       "grep"
     ],
     "createdAt": "2025-02-12T12:02:20.208Z"
+  },{
+    "id": "oneliner-1739361688013",
+    "command": "xargs -a urls.txt -I@ sh -c './xray webscan --plugins cmd-injection,sqldet,xss --url \"@\" --html-output vuln.html'",
+    "description": "Xray Oneliner",
+    "category": "Reconnissance, Zeb app",
+    "usedTools": [
+      "xargs",
+      "webscan"
+    ],
+    "createdAt": "2025-02-12T12:01:28.013Z"
   }
 ]
