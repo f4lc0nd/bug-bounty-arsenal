@@ -362,16 +362,6 @@
     "createdAt": "2025-02-10T18:06:44.145Z"
   },
   {
-    "id": "oneliner-1739214146948",
-    "command": "bbrf inscope add '*.af.mil' '*.osd.mil' '*.marines.mil' '*.pentagon.mil' '*.disa.mil' '*.health.mil' '*.dau.mil' '*.dtra.mil' '*.ng.mil' '*.dds.mil' '*.uscg.mil' '*.army.mil' '*.dcma.mil' '*.dla.mil' '*.dtic.mil' '*.yellowribbon.mil' '*.socom.mil'",
-    "description": "The Bug Bounty Reconnaissance Framework (BBRF) can help you coordinate your reconnaissance workflows across multiple devices",
-    "category": "Reconnaissance",
-    "usedTools": [
-      "bbrf"
-    ],
-    "createdAt": "2025-02-10T19:02:26.948Z"
-  },
-  {
     "id": "oneliner-1739361740208",
     "command": "subfinder -d hackerone.com -silent -all | httpx -silent | katana -d 5 -silent | grep -iE '\\.js'| grep -iEv '(\\.jsp|\\.json)'\nsubfinder -d hackerone.com -silent -all | httpx -silent | katana -d 5 -silent -em js,jsp,json",
     "description": "Katana Crawling",
