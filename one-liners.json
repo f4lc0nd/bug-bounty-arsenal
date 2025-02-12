@@ -370,5 +370,18 @@
       "bbrf"
     ],
     "createdAt": "2025-02-10T19:02:26.948Z"
+  },
+  {
+    "id": "oneliner-1739361740208",
+    "command": "subfinder -d hackerone.com -silent -all | httpx -silent | katana -d 5 -silent | grep -iE '\\.js'| grep -iEv '(\\.jsp|\\.json)'\nsubfinder -d hackerone.com -silent -all | httpx -silent | katana -d 5 -silent -em js,jsp,json",
+    "description": "Katana Crawling",
+    "category": "Crawling",
+    "usedTools": [
+      "Subfinder",
+      "Katana",
+      "httpx",
+      "grep"
+    ],
+    "createdAt": "2025-02-12T12:02:20.208Z"
   }
 ]
