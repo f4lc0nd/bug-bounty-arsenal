@@ -8,9 +8,17 @@
       "command": "amass enum -d {domain}",
       "url": "https://github.com/OWASP/Amass",
       "documentation": "https://github.com/OWASP/Amass/blob/master/doc/user_guide.md",
-      "tags": ["dns", "enumeration", "mapping"],
+      "tags": [
+        "dns",
+        "enumeration",
+        "mapping"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "aquatone",
@@ -20,9 +28,17 @@
       "command": "aquatone -scan -ports large -targets domains.txt",
       "url": "https://github.com/michenriksen/aquatone",
       "documentation": "https://github.com/michenriksen/aquatone/wiki",
-      "tags": ["web", "visualization", "recon"],
+      "tags": [
+        "web",
+        "visualization",
+        "recon"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "argus",
@@ -32,9 +48,15 @@
       "command": "python argus.py",
       "url": "https://github.com/jasonxtn/Argus",
       "documentation": "https://github.com/jasonxtn/Argus",
-      "tags": ["information gathering", "recon"],
+      "tags": [
+        "information gathering",
+        "recon"
+      ],
       "difficulty": "advanced",
-      "platform": ["mac", "linux"]
+      "platform": [
+        "mac",
+        "linux"
+      ]
     },
     {
       "id": "arjun",
@@ -44,9 +66,36 @@
       "command": "arjun -u https://api.example.com/endpoint",
       "url": "https://github.com/s0md3v/Arjun",
       "documentation": "https://github.com/s0md3v/Arjun#",
-      "tags": ["http parametrs", "scanner", "reconnaissance"],
+      "tags": [
+        "http parametrs",
+        "scanner",
+        "reconnaissance"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
+      "id": "bbot",
+      "name": "bbot",
+      "description": "The recursive internet scanner for hackers. 🧡",
+      "category": "reconnaissance",
+      "command": "bbot -t evilcorp.com -p subdomain-enum",
+      "url": "https://github.com/blacklanternsecurity/bbot",
+      "documentation": "https://github.com/blacklanternsecurity/bbot",
+      "tags": [
+        "dns",
+        "enumeration"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "burpsuite",
@@ -56,9 +105,17 @@
       "command": "N/A (GUI-based tool)",
       "url": "https://portswigger.net/burp",
       "documentation": "https://portswigger.net/burp/documentation",
-      "tags": ["web", "proxy", "vulnerability-scanning"],
+      "tags": [
+        "web",
+        "proxy",
+        "vulnerability-scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "cariddi",
@@ -68,9 +125,15 @@
       "command": "cat urls | cariddi -s",
       "url": "https://github.com/edoardottt/cariddi",
       "documentation": "https://github.com/edoardottt/cariddi",
-      "tags": ["crawler"],
+      "tags": [
+        "crawler"
+      ],
       "difficulty": "intermediate",
-      "platform": ["mac", "windows", "linux"]
+      "platform": [
+        "mac",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "crackmapexec",
@@ -80,9 +143,16 @@
       "command": "crackmapexec smb {target} -u {user} -p {password}",
       "url": "https://github.com/byt3bl33d3r/CrackMapExec",
       "documentation": "https://github.com/byt3bl33d3r/CrackMapExec/wiki",
-      "tags": ["network", "exploitation", "pentesting"],
+      "tags": [
+        "network",
+        "exploitation",
+        "pentesting"
+      ],
       "difficulty": "advanced",
-      "platform": ["linux", "mac"]
+      "platform": [
+        "linux",
+        "mac"
+      ]
     },
     {
       "id": "dirsearch",
@@ -92,9 +162,17 @@
       "command": "dirsearch -u {url} -e *",
       "url": "https://github.com/maurosoria/dirsearch",
       "documentation": "https://github.com/maurosoria/dirsearch/wiki",
-      "tags": ["web", "directory", "brute-force"],
+      "tags": [
+        "web",
+        "directory",
+        "brute-force"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "dracnmap",
@@ -104,9 +182,16 @@
       "command": "bash dracnmap.sh",
       "url": "https://github.com/screetsec/Dracnmap",
       "documentation": "https://github.com/screetsec/Dracnmap#drcacnmap",
-      "tags": ["scanner", "port scanning"],
+      "tags": [
+        "scanner",
+        "port scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "enum4linux",
@@ -116,9 +201,15 @@
       "command": "enum4linux -a {target}",
       "url": "https://github.com/portcullislabs/enum4linux",
       "documentation": "https://labs.portcullis.co.uk/tools/enum4linux/",
-      "tags": ["windows", "samba", "enumeration"],
+      "tags": [
+        "windows",
+        "samba",
+        "enumeration"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux"]
+      "platform": [
+        "linux"
+      ]
     },
     {
       "id": "eyewitness",
@@ -128,9 +219,17 @@
       "command": "EyeWitness -f urls.txt --web",
       "url": "https://github.com/redsiege/EyeWitness",
       "documentation": "https://github.com/redsiege/EyeWitness",
-      "tags": ["scanner", "osint", "screenshots"],
+      "tags": [
+        "scanner",
+        "osint",
+        "screenshots"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "favirecon",
@@ -140,9 +239,15 @@
       "command": "echo https://www.github.com | favirecon",
       "url": "https://github.com/edoardottt/favirecon",
       "documentation": "https://github.com/edoardottt/favirecon",
-      "tags": ["recon"],
+      "tags": [
+        "recon"
+      ],
       "difficulty": "beginner",
-      "platform": ["mac", "windows", "linux"]
+      "platform": [
+        "mac",
+        "windows",
+        "linux"
+      ]
     },
     {
       "id": "ffuf",
@@ -152,9 +257,17 @@
       "command": "ffuf -w wordlist.txt -u {url}/FUZZ",
       "url": "https://github.com/ffuf/ffuf",
       "documentation": "https://github.com/ffuf/ffuf#usage",
-      "tags": ["web", "fuzzing", "enumeration"],
+      "tags": [
+        "web",
+        "fuzzing",
+        "enumeration"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "gobuster",
@@ -164,9 +277,17 @@
       "command": "gobuster dir -u {url} -w wordlist.txt",
       "url": "https://github.com/OJ/gobuster",
       "documentation": "https://github.com/OJ/gobuster/wiki",
-      "tags": ["web", "directory", "dns"],
+      "tags": [
+        "web",
+        "directory",
+        "dns"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "gowitness",
@@ -176,9 +297,15 @@
       "command": "gowitness scan single --url \"https://sensepost.com\" --write-db",
       "url": "https://github.com/sensepost/gowitness",
       "documentation": "https://github.com/sensepost/gowitness#a-golang-web-screenshot-utility-using-chrome-headless",
-      "tags": ["screenshot"],
+      "tags": [
+        "screenshot"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "hakrawler-1739294899091",
@@ -188,9 +315,15 @@
       "command": "cat urls.txt | hakrawler -timeout 5",
       "url": "https://github.com/hakluke/hakrawler",
       "documentation": "https://github.com/hakluke/hakrawler",
-      "tags": ["crawler"],
+      "tags": [
+        "crawler"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "hydra",
@@ -200,9 +333,17 @@
       "command": "hydra -l {username} -P wordlist.txt {target} {protocol}",
       "url": "https://github.com/vanhauser-thc/thc-hydra",
       "documentation": "https://github.com/vanhauser-thc/thc-hydra/wiki",
-      "tags": ["password", "cracking", "brute-force"],
+      "tags": [
+        "password",
+        "cracking",
+        "brute-force"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "john",
@@ -212,9 +353,17 @@
       "command": "john --wordlist=wordlist.txt hash.txt",
       "url": "https://www.openwall.com/john/",
       "documentation": "https://www.openwall.com/john/doc/",
-      "tags": ["password", "cracking", "hash"],
+      "tags": [
+        "password",
+        "cracking",
+        "hash"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "katana",
@@ -224,9 +373,16 @@
       "command": "katana -u https://tesla.com",
       "url": "https://github.com/projectdiscovery/katan",
       "documentation": "https://github.com/projectdiscovery/katana?tab=readme-ov-file#a-next-generation-crawling-and-spidering-framework",
-      "tags": ["crawling", "spidering"],
+      "tags": [
+        "crawling",
+        "spidering"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "lucille",
@@ -236,9 +392,16 @@
       "command": "python lucille.py",
       "url": "https://github.com/jasonxtn/Lucille",
       "documentation": "https://github.com/jasonxtn/Lucille",
-      "tags": ["recon", "web exploit"],
+      "tags": [
+        "recon",
+        "web exploit"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "masscan",
@@ -248,9 +411,17 @@
       "command": "masscan -p1-65535 {target} --rate=10000",
       "url": "https://github.com/robertdavidgraham/masscan",
       "documentation": "https://github.com/robertdavidgraham/masscan/wiki",
-      "tags": ["network", "scanning", "ip"],
+      "tags": [
+        "network",
+        "scanning",
+        "ip"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "metasploit",
@@ -260,9 +431,17 @@
       "command": "msfconsole",
       "url": "https://www.metasploit.com/",
       "documentation": "https://docs.rapid7.com/metasploit/",
-      "tags": ["exploitation", "payload", "framework"],
+      "tags": [
+        "exploitation",
+        "payload",
+        "framework"
+      ],
       "difficulty": "advanced",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "nikto",
@@ -272,9 +451,17 @@
       "command": "nikto -h {url}",
       "url": "https://github.com/sullo/nikto",
       "documentation": "https://github.com/sullo/nikto/wiki",
-      "tags": ["web", "vulnerability", "scanning"],
+      "tags": [
+        "web",
+        "vulnerability",
+        "scanning"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "nmap",
@@ -284,9 +471,17 @@
       "command": "nmap -sV -p 1-65535 {target}",
       "url": "https://nmap.org/",
       "documentation": "https://nmap.org/book/man.html",
-      "tags": ["network", "scanning", "enumeration"],
+      "tags": [
+        "network",
+        "scanning",
+        "enumeration"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "photon",
@@ -296,9 +491,16 @@
       "command": "python photon.py -u \"http://example.com\"",
       "url": "https://github.com/s0md3v/Photon",
       "documentation": "https://github.com/s0md3v/Photon?tab=readme-ov-file#incredibly-fast-crawler-designed-for-osint",
-      "tags": ["scanner", "osint"],
+      "tags": [
+        "scanner",
+        "osint"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "pphack",
@@ -308,9 +510,16 @@
       "command": "echo https://edoardottt.github.io/pp-test/ | pphack",
       "url": "https://github.com/edoardottt/pphack",
       "documentation": "https://github.com/edoardottt/pphack",
-      "tags": ["prototype pollution", "scanner"],
+      "tags": [
+        "prototype pollution",
+        "scanner"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "scilla",
@@ -328,7 +537,11 @@
         "directories enumeration"
       ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "sqlmap",
@@ -338,9 +551,17 @@
       "command": "sqlmap -u {url} --risk=3 --level=5",
       "url": "http://sqlmap.org/",
       "documentation": "https://github.com/sqlmapproject/sqlmap/wiki",
-      "tags": ["sql-injection", "database", "exploitation"],
+      "tags": [
+        "sql-injection",
+        "database",
+        "exploitation"
+      ],
       "difficulty": "advanced",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "subfinder",
@@ -350,9 +571,17 @@
       "command": "subfinder -d {domain} -o subdomains.txt",
       "url": "https://github.com/projectdiscovery/subfinder",
       "documentation": "https://github.com/projectdiscovery/subfinder#readme",
-      "tags": ["subdomain", "enumeration", "passive"],
+      "tags": [
+        "subdomain",
+        "enumeration",
+        "passive"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "sudomy",
@@ -362,9 +591,16 @@
       "command": "sudomy -d bugcrowd.com -dP -eP -rS -cF -pS -tO -gW --httpx --dnsprobe  -aI webanalyze -sS",
       "url": "https://github.com/screetsec/Sudomy",
       "documentation": "https://github.com/screetsec/Sudomy#sudomy",
-      "tags": ["scanner", "subdomain enumeration"],
+      "tags": [
+        "scanner",
+        "subdomain enumeration"
+      ],
       "difficulty": "beginner",
-      "platform": ["mac", "linux", "windows"]
+      "platform": [
+        "mac",
+        "linux",
+        "windows"
+      ]
     },
     {
       "id": "vx0-by-zead-1739299190700",
@@ -374,9 +610,15 @@
       "command": "python3 vx0.py -d example.com",
       "url": "https://github.com/ZEAD2006/vx0",
       "documentation": "https://github.com/ZEAD2006/vx0",
-      "tags": ["subdomains"],
+      "tags": [
+        "subdomains"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "whatweb",
@@ -386,9 +628,17 @@
       "command": "whatweb target.com",
       "url": "https://github.com/urbanadventurer/WhatWeb",
       "documentation": "https://github.com/urbanadventurer/WhatWeb#whatweb---next-generation-web-scanner",
-      "tags": ["scanner", "technologies detector", "osint"],
+      "tags": [
+        "scanner",
+        "technologies detector",
+        "osint"
+      ],
       "difficulty": "beginner",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "wireshark",
@@ -398,9 +648,17 @@
       "command": "N/A (GUI-based tool)",
       "url": "https://www.wireshark.org/",
       "documentation": "https://www.wireshark.org/docs/",
-      "tags": ["network", "packet", "analysis"],
+      "tags": [
+        "network",
+        "packet",
+        "analysis"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "wpscan",
@@ -410,9 +668,17 @@
       "command": "wpscan --url {url}",
       "url": "https://wpscan.com/",
       "documentation": "https://github.com/wpscanteam/wpscan/wiki",
-      "tags": ["wordpress", "vulnerability", "scanning"],
+      "tags": [
+        "wordpress",
+        "vulnerability",
+        "scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "xsstrike",
@@ -422,9 +688,16 @@
       "command": "python xsstrike.py -u \"http://example.com/search.php?q=query\"",
       "url": "https://github.com/s0md3v/XSStrike",
       "documentation": "https://github.com/s0md3v/XSStrike#advanced-xss-detection-suite",
-      "tags": ["xss", "scanner"],
+      "tags": [
+        "xss",
+        "scanner"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
       "id": "zap",
@@ -434,21 +707,37 @@
       "command": "N/A (GUI-based tool)",
       "url": "https://www.zaproxy.org/",
       "documentation": "https://www.zaproxy.org/docs/",
-      "tags": ["web", "vulnerability", "scanning"],
+      "tags": [
+        "web",
+        "vulnerability",
+        "scanning"
+      ],
       "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     },
     {
-      "id": "bbot",
-      "name": "bbot",
-      "description": "The recursive internet scanner for hackers. 🧡",
-      "category": "reconnaissance",
-      "command": "bbot -t evilcorp.com -p subdomain-enum",
-      "url": "https://github.com/blacklanternsecurity/bbot",
-      "documentation": "https://github.com/blacklanternsecurity/bbot",
-      "tags": ["dns", "enumeration"],
-      "difficulty": "intermediate",
-      "platform": ["linux", "mac", "windows"]
+      "id": "zero-e-1739874603906",
+      "name": "Zero-E",
+      "description": "Host discovery and service enumeration are essential in network pentests, but they can be tedious and time-consuming. Zero-E (ZrE) automates the entire process, from port and host discovery to detailed scans of active hosts, saving valuable time. With a tested, efficient methodology, ZrE offers zero-effort, zero-error network enumeration—no experience needed. It even generates various files for analysis, so you can relax while it does the work for you.",
+      "category": "network-security",
+      "command": "sudo ./zero-e",
+      "url": "https://github.com/Inscyght/Zero-E",
+      "documentation": "https://github.com/Inscyght/Zero-E#description",
+      "tags": [
+        "network",
+        "host discovery",
+        "service enumeration"
+      ],
+      "difficulty": "advanced",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
     }
   ]
 }
