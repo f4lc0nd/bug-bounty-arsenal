@@ -98,6 +98,25 @@
       ]
     },
     {
+      "id": "bbot",
+      "name": "bbot",
+      "description": "The recursive internet scanner for hackers. 🧡",
+      "category": "reconnaissance",
+      "command": "bbot -t evilcorp.com -p subdomain-enum",
+      "url": "https://github.com/blacklanternsecurity/bbot",
+      "documentation": "https://github.com/blacklanternsecurity/bbot",
+      "tags": [
+        "dns",
+        "enumeration"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
       "id": "burpsuite",
       "name": "Burp Suite",
       "description": "Web application security testing tool",
@@ -261,6 +280,49 @@
         "web",
         "fuzzing",
         "enumeration"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
+      "id": "freeway--1739874842339",
+      "name": "Freeway ",
+      "description": "Freeway is a Python scapy-based tool for WiFi penetration that aim to help ethical hackers and pentesters develop their skills and knowledge in auditing and securing home or enterprise networks.",
+      "category": "network-security",
+      "command": "sudo Freeway",
+      "url": "https://github.com/FLOCK4H/Freeway",
+      "documentation": "https://github.com/FLOCK4H/Freeway?tab=readme-ov-file#1-overview",
+      "tags": [
+        "ieee 802.11 packet monitoring",
+        "deauthentication attack",
+        "beacon flood",
+        "packet fuzzer",
+        "network audit",
+        "channel hopper",
+        "evil twin",
+        "packet crafter",
+        "arsenal"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux"
+      ]
+    },
+    {
+      "id": "ffufai-1739873890674",
+      "name": "ffufai",
+      "description": "ffufai is an AI-powered wrapper for the popular web fuzzer ffuf. It automatically suggests file extensions for fuzzing based on the target URL and its headers, using either OpenAI's GPT or Anthropic's Claude AI models.",
+      "category": "reconnaissance",
+      "command": "python3 ffufai.py -u https://example.com/FUZZ -w /path/to/wordlist.txt",
+      "url": "https://github.com/jthack/ffufai",
+      "documentation": "https://github.com/jthack/ffufai?tab=readme-ov-file",
+      "tags": [
+        "web fuzzer",
+        "ai"
       ],
       "difficulty": "intermediate",
       "platform": [
