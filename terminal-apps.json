@@ -1,0 +1,86 @@
+[
+  {
+    "image": "Lazygit",
+    "color": "pink",
+    "tags": "git",
+    "repoName": "jesseduffield/lazygit"
+  },
+  {
+    "image": "Btop",
+    "color": "red",
+    "tags": "monitoring",
+    "repoName": "aristocratos/btop"
+  },
+  {
+    "image": "GhDash",
+    "color": "green",
+    "tags": "git",
+    "repoName": "dlvhdr/gh-dash"
+  },
+  {
+    "image": "Superfile",
+    "color": "indigo",
+    "tags": "file-management",
+    "repoName": "yorukot/superfile"
+  },
+  {
+    "image": "Softserve",
+    "color": "fuchsia",
+    "tags": "git",
+    "repoName": "charmbracelet/soft-serve"
+  },
+  {
+    "image": "Oha",
+    "color": "yellow",
+    "tags": "infra",
+    "repoName": "hatoo/oha"
+  },
+  {
+    "image": "Lazydocker",
+    "color": "blue",
+    "tags": "infra",
+    "repoName": "jesseduffield/lazydocker"
+  },
+  {
+    "image": "Posting",
+    "color": "purple",
+    "tags": "productivity",
+    "repoName": "darrenburns/posting"
+  },
+  {
+    "image": "Harlequin",
+    "color": "teal",
+    "tags": "infra",
+    "repoName": "tconbeer/harlequin"
+  },
+  {
+    "image": "Cloudlens",
+    "color": "lime",
+    "tags": "infra",
+    "repoName": "one2nc/cloudlens"
+  },
+  {
+    "image": "GitKraken",
+    "color": "orange",
+    "tags": "git",
+    "repoName": "gitkraken/gk-cli"
+  },
+  {
+    "image": "Trippy",
+    "color": "yellow",
+    "tags": "monitoring",
+    "repoName": "fujiapple852/trippy"
+  },
+  {
+    "image": "Yazi",
+    "color": "blue",
+    "tags": "file-management",
+    "repoName": "sxyazi/yazi"
+  },
+  {
+    "image": "Bagels",
+    "color": "purple",
+    "tags": "finance",
+    "repoName": "EnhancedJax/Bagels"
+  }
+]
