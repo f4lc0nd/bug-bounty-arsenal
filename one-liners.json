@@ -373,7 +373,8 @@
       "grep"
     ],
     "createdAt": "2025-02-12T12:02:20.208Z"
-  },{
+  },
+  {
     "id": "oneliner-1739361688013",
     "command": "xargs -a urls.txt -I@ sh -c './xray webscan --plugins cmd-injection,sqldet,xss --url \"@\" --html-output vuln.html'",
     "description": "Xray Oneliner",
@@ -383,5 +384,18 @@
       "webscan"
     ],
     "createdAt": "2025-02-12T12:01:28.013Z"
+  },
+  {
+    "id": "oneliner-1740330339052",
+    "command": "waybackurls HOSTS | tac | sed \"s#\\\\\\/#\\/#g\" | egrep -o \"src['\\\"]?\n15*[=: 1\\5*[ '\\\"]?[^'\\\"]+.js[^'|\" ]*\" | awk -F '/'\n'{if(length($2))print \"https://\"$2}' | sort -fu | xargs -I '%' sh\n-c \"curl -k -s \\\"%)\" | sed \\\"s/[;}\\)]/\\n/g\\\" | grep -Po \\\" (L'1|\\\"](https?: )?[/1{1,2}[^'||l\" 1{5,3)|(\\.\n(get|post|ajax|load)\\s*\\(\\5*['||\\\"](https?:)?[/1{1,2}[^'||\\\" ]\n{5,})\\\"\" | awk -F \"['|\"]\" '{print $2}' sort -fu",
+    "description": "Extract Juicy Information From Waybackurls",
+    "category": "waybackurls, Reconnaissance",
+    "usedTools": [
+      "waybackurls",
+      "tac",
+      "egrep",
+      ""
+    ],
+    "createdAt": "2025-02-23T17:05:39.052Z"
   }
 ]
