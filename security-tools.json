@@ -289,6 +289,25 @@
       ]
     },
     {
+      "id": "ffufai-1739873890674",
+      "name": "ffufai",
+      "description": "ffufai is an AI-powered wrapper for the popular web fuzzer ffuf. It automatically suggests file extensions for fuzzing based on the target URL and its headers, using either OpenAI's GPT or Anthropic's Claude AI models.",
+      "category": "reconnaissance",
+      "command": "python3 ffufai.py -u https://example.com/FUZZ -w /path/to/wordlist.txt",
+      "url": "https://github.com/jthack/ffufai",
+      "documentation": "https://github.com/jthack/ffufai?tab=readme-ov-file",
+      "tags": [
+        "web fuzzer",
+        "ai"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
       "id": "freeway--1739874842339",
       "name": "Freeway ",
       "description": "Freeway is a Python scapy-based tool for WiFi penetration that aim to help ethical hackers and pentesters develop their skills and knowledge in auditing and securing home or enterprise networks.",
@@ -310,25 +329,6 @@
       "difficulty": "intermediate",
       "platform": [
         "linux"
-      ]
-    },
-    {
-      "id": "ffufai-1739873890674",
-      "name": "ffufai",
-      "description": "ffufai is an AI-powered wrapper for the popular web fuzzer ffuf. It automatically suggests file extensions for fuzzing based on the target URL and its headers, using either OpenAI's GPT or Anthropic's Claude AI models.",
-      "category": "reconnaissance",
-      "command": "python3 ffufai.py -u https://example.com/FUZZ -w /path/to/wordlist.txt",
-      "url": "https://github.com/jthack/ffufai",
-      "documentation": "https://github.com/jthack/ffufai?tab=readme-ov-file",
-      "tags": [
-        "web fuzzer",
-        "ai"
-      ],
-      "difficulty": "intermediate",
-      "platform": [
-        "linux",
-        "mac",
-        "windows"
       ]
     },
     {
@@ -399,6 +399,25 @@
         "password",
         "cracking",
         "brute-force"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
+      "id": "idor-1740330141967",
+      "name": "IDOR",
+      "description": "IDOR Forge is an advanced and versatile tool designed to detect Insecure Direct Object Reference (IDOR) vulnerabilities in web applications.",
+      "category": "web-scanning",
+      "command": "python IDOR-Forge.py -u \"https://example.com/api/resource?id=1\"",
+      "url": "https://github.com/errorfiathck/IDOR-Forge",
+      "documentation": "https://github.com/errorfiathck/IDOR-Forge",
+      "tags": [
+        "idors",
+        "scanner"
       ],
       "difficulty": "intermediate",
       "platform": [
