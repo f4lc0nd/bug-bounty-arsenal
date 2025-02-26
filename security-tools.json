@@ -466,6 +466,26 @@
       ]
     },
     {
+      "id": "link-dumper-1740386463714",
+      "name": "Link Dumper",
+      "description": "Link Dumper is a powerful Python-based web crawler designed for pentesting and reconnaissance. It scans websites for URLs and extracts JavaScript (.js), text (.txt), JSON (.json), and XML (.xml) files. This is useful for subdomain enumeration, API key discovery, and security analysis.",
+      "category": "web-scanning",
+      "command": "bash main.sh",
+      "url": "https://github.com/walidzitouni/Link_dumper",
+      "documentation": "https://github.com/walidzitouni/Link_dumper",
+      "tags": [
+        "crawling",
+        "link extraction",
+        "javascript file detection"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
       "id": "lucille",
       "name": "Lucille",
       "description": "Lucille is a comprehensive web application security testing tool designed for cybersecurity professionals. built with Python, Lucille offers a suite of user-friendly tools, it aims to provide an efficient and practical tools streamlining pentesting tasks and centralizing various audit and exploitation techniques.",
