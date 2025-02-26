@@ -332,6 +332,24 @@
       ]
     },
     {
+      "id": "gau-1740598366795",
+      "name": "GAU",
+      "description": "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.",
+      "category": "reconnaissance",
+      "command": " cat domains.txt | gau --threads 5",
+      "url": "https://github.com/lc/gau",
+      "documentation": "https://github.com/lc/gau",
+      "tags": [
+        "crawler"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "windows",
+        "mac",
+        "linux"
+      ]
+    },
+    {
       "id": "gobuster",
       "name": "Gobuster",
       "description": "Directory/file and DNS busting tool",
