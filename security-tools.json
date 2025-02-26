@@ -645,6 +645,25 @@
       ]
     },
     {
+      "id": "sn1per-1740574400550",
+      "name": "Sn1per",
+      "description": "Attack Surface Management Platform",
+      "category": "vulnerability-scanning",
+      "command": "sniper -t <TARGET>",
+      "url": "https://github.com/1N3/Sn1per",
+      "documentation": "https://github.com/1N3/Sn1per",
+      "tags": [
+        "information gathering",
+        "recon"
+      ],
+      "difficulty": "advanced",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
       "id": "sqlmap",
       "name": "sqlmap",
       "description": "Automatic SQL injection and database takeover tool",
