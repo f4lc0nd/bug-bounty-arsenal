@@ -641,6 +641,25 @@
       ]
     },
     {
+      "id": "reconftw-1741511931905",
+      "name": "reconFTW",
+      "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
+      "category": "reconnaissance",
+      "command": "bash ./reconftw.sh -d target.com -a",
+      "url": "https://github.com/six2dez/reconftw",
+      "documentation": "https://github.com/six2dez/reconftw",
+      "tags": [
+        "recon",
+        "scanning"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "mac",
+        "windows",
+        "linux"
+      ]
+    },
+    {
       "id": "scilla",
       "name": "scilla",
       "description": "Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration",
