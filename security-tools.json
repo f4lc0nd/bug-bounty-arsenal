@@ -78,25 +78,7 @@
         "windows"
       ]
     },
-    {
-      "id": "bbot",
-      "name": "bbot",
-      "description": "The recursive internet scanner for hackers. 🧡",
-      "category": "reconnaissance",
-      "command": "bbot -t evilcorp.com -p subdomain-enum",
-      "url": "https://github.com/blacklanternsecurity/bbot",
-      "documentation": "https://github.com/blacklanternsecurity/bbot",
-      "tags": [
-        "dns",
-        "enumeration"
-      ],
-      "difficulty": "intermediate",
-      "platform": [
-        "linux",
-        "mac",
-        "windows"
-      ]
-    },
+    
     {
       "id": "bbot",
       "name": "bbot",
