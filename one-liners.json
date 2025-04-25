@@ -397,5 +397,75 @@
       ""
     ],
     "createdAt": "2025-02-23T17:05:39.052Z"
-  }
+  },
+    { 
+        "id": "51", 
+        "command": "gau domain.com | gf lfi | qsreplace '/etc/passwd' | xargs -I% -P 25 sh -c 'curl -s \"%\" | grep -q \"root:\" && echo \"VULN! %\"'", 
+        "description": "Automated LFI testing with parallel requests", 
+        "used_tools": "gau, gf, qsreplace, curl", 
+        "category": "Vulnerability Scanning" 
+    },
+    { 
+        "id": "52", 
+        "command": "curl -s https://domain.com/graphql | jq 'if .data.__schema then \"GraphQL Introspection Enabled\" else empty end'", 
+        "description": "Detect GraphQL introspection exposure", 
+        "used_tools": "curl, jq", 
+        "category": "Information Gathering" 
+    },
+    { 
+        "id": "53", 
+        "command": "corscanner -i urls.txt -o cors.txt", 
+        "description": "Scan for CORS misconfigurations", 
+        "used_tools": "corscanner", 
+        "category": "Vulnerability Scanning" 
+    },
+    { 
+        "id": "54", 
+        "command": "s3scanner scan -b domain.com", 
+        "description": "Check for open/misconfigured AWS S3 buckets", 
+        "used_tools": "s3scanner", 
+        "category": "Reconnaissance" 
+    },
+    { 
+        "id": "55", 
+        "command": "trufflehog git https://github.com/company/repo --json", 
+        "description": "GitHub secrets scanning with TruffleHog", 
+        "used_tools": "trufflehog", 
+        "category": "Information Gathering" 
+    },
+    { 
+        "id": "56", 
+        "command": "cat urls.txt | nuclei -t log4j/", 
+        "description": "Log4j vulnerability detection", 
+        "used_tools": "nuclei", 
+        "category": "Vulnerability Scanning" 
+    },
+    { 
+        "id": "57", 
+        "command": "curl -s -I https://domain.com | grep -i 'X-Frame-Options' || echo 'Clickjacking possible'", 
+        "description": "Clickjacking header check", 
+        "used_tools": "curl", 
+        "category": "Vulnerability Scanning" 
+    },
+    { 
+        "id": "58", 
+        "command": "theHarvester -d domain.com -b google", 
+        "description": "OSINT: Email and subdomain discovery via Google", 
+        "used_tools": "theHarvester", 
+        "category": "Reconnaissance" 
+    },
+    { 
+        "id": "59", 
+        "command": "cat subdomains.txt | parallel -j 10 'httpx -title -status-code -silent -url {}'", 
+        "description": "Parallelized HTTP probing with httpx", 
+        "used_tools": "parallel, httpx", 
+        "category": "Enumeration" 
+    },
+    { 
+        "id": "60", 
+        "command": "waybackurls domain.com | grep -E '\\.js($|\\?)' | anti-burl | hakcheckurl", 
+        "description": "Find live JS files from Wayback Machine", 
+        "used_tools": "waybackurls, anti-burl, hakcheckurl", 
+        "category": "Enumeration" 
+    }
 ]
