@@ -79,6 +79,25 @@
       ]
     },
     {
+      "id": "baddns-1745741907002",
+      "name": "BadDNS",
+      "description": "Check subdomains for subdomain takeovers and other DNS tomfoolery",
+      "category": "reconnaissance",
+      "command": "baddns subdomaintocheck.example.com",
+      "url": "https://github.com/blacklanternsecurity/baddns",
+      "documentation": "https://github.com/blacklanternsecurity/baddns",
+      "tags": [
+        "recon",
+        "subdomain"
+      ],
+      "difficulty": "beginner",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
       "id": "bbot",
       "name": "bbot",
       "description": "The recursive internet scanner for hackers. 🧡",
