@@ -78,7 +78,6 @@
         "windows"
       ]
     },
-    
     {
       "id": "bbot",
       "name": "bbot",
@@ -772,6 +771,25 @@
         "subdomains"
       ],
       "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
+    {
+      "id": "webcap-1745741041790",
+      "name": "Webcap",
+      "description": "An ultra-lightweight web screenshot tool with advanced features.",
+      "category": "reconnaissance",
+      "command": "webcap scan urls.txt -o ./my_screenshots",
+      "url": "https://blog.blacklanternsecurity.com/p/tool-release-webcap",
+      "documentation": "https://blog.blacklanternsecurity.com/p/tool-release-webcap",
+      "tags": [
+        "screenshots",
+        "recon"
+      ],
+      "difficulty": "beginner",
       "platform": [
         "linux",
         "mac",
