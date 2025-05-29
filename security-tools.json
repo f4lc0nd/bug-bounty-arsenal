@@ -1,5 +1,25 @@
 {
   "tools": [
+      {
+      "id": "sqlmap-ai",
+      "name": "SQLMAP With AI",
+      "description": "This script automates SQL injection testing using SQLMap with AI-powered decision making.",
+      "category": "exploitation",
+      "command": "python run.py --adaptive",
+      "url": "https://github.com/atiilla/sqlmap-ai",
+      "documentation": "https://github.com/atiilla/sqlmap-ai?tab=readme-ov-file#sqlmap-ai-assistant",
+      "tags": [
+        "sqlmap",
+        "sqli",
+        "sql-injection"
+      ],
+      "difficulty": "intermediate",
+      "platform": [
+        "linux",
+        "mac",
+        "windows"
+      ]
+    },
     {
       "id": "amass",
       "name": "Amass",
